@@ -47,7 +47,6 @@
                 	<url>http://localhost:8088/manager/text</url>
                 	<path>/hellostruts</path>
                     <uriEncoding>UTF-8</uriEncoding>
-                    <finalName>HelloStruts2</finalName>
                     <server>tomcat</server>
                      <username>admin</username>
         			<password>password</password>
