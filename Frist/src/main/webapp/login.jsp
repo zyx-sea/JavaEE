@@ -8,6 +8,7 @@
 </head>
 <body>
 <form action="login.action" method="post">
+
 	<table align="center">
 		<tr><td>姓名：</td><td><input type="text" name="username"></td></tr>
 		<tr><td>密码：</td><td><input type="password" name="userpassword"></td></tr>	
