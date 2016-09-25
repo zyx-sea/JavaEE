@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<display-name>chapter03</display-name>
+	<!-- 配置Struts 2框架的核心Filter -->
+	<filter>
+		<!--过滤器名 -->
+		<filter-name>struts2</filter-name>
+		<!--  配置Struts 2的核心Filter的实现类  -->
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+	</filter>
+	<!--  让Struts 2的核心Filter拦截所有请求  -->
+	<filter-mapping>
+		<!--过滤器名 -->
+		<filter-name>struts2</filter-name>
+		<!-- 匹配所有请求 -->
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<!--欢迎页面列表 -->
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+<error-page>
+   <error-code>404</error-code>
+   <location>/error/404.jsp</location>
+</error-page>
+</web-app>
