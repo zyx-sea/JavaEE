@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts>
+<project>
+<package name="default" namespace="/" extend="">
+	<action name="defalut" class="">
+	</action>
+	<result>/.jsp</result>
+</package>
+
+</project>
+</struts>
