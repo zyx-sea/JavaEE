@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <struts>
 <project>
-<package name="default" namespace="/" extend="">
-	<action name="defalut" class="">
+<package name="user" namespace="/user" extend="struts-default">
+	<action name="login" class="cn.qd.action.LoginAction" >
+	<!--登陆action  -->
+	<result name="main" type="redirect">/main.jsp</result>
 	</action>
-	<result>/.jsp</result>
 </package>
 
 </project>
