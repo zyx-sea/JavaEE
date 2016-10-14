@@ -14,7 +14,7 @@ public class Category {
 	private Account account;
 	private String type;
 	private Boolean hot;
-	//
+	//构造方法
 	public Category(Integer id, cn.qd.book.model.Account account, String type, Boolean hot) {
 		super();
 		this.id = id;
@@ -22,7 +22,7 @@ public class Category {
 		this.type = type;
 		this.hot = hot;
 	}
-	//
+	//get/set方法
 	public Integer getId() {
 		return id;
 	}
