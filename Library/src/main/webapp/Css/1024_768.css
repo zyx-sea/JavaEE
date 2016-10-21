@@ -13,7 +13,7 @@ body{ background:#fff;}
 .top_menu{ width:460px; height:auto; display:inline; float:left; margin-left:30px;}
 .top_menu ul{ width:100%; height:auto; display:inline; float:left;}
 .top_menu ul li{ padding:15px 5px 3px; margin-left:10px; float:left; background:#fff; border-bottom:1px solid #fff;}
-.top_menu ul li a{ font:13px/20px Arial, Helvetica, sans-serif; color:#333; text-decoration:none;}
+.top_menu ul li a{ font:14px/20px Arial, Helvetica, sans-serif; color:#333; text-decoration:none;}
 .top_menu ul li:hover,.top_menu ul li.sel{ border-bottom:1px solid #bcb79c; background:#f6f5ea;}
 
 .top_shop_cur{ width:79px; height:50px; display:inline;position:absolute; top:30px; right:10px; z-index:100;}
