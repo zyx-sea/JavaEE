@@ -11,6 +11,8 @@ import org.junit.Test;
 import java.io.IOException;
 import java.io.InputStream;
 
+import static com.sun.xml.internal.ws.dump.LoggingDumpTube.Position.Before;
+
 /**
  * @author July
  * @version 1.0
