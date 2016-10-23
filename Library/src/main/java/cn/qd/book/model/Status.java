@@ -1,59 +1,48 @@
-/**
- * 
- */
 package cn.qd.book.model;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import cn.qd.book.model.Forder;
-
-/** 
-* @author  July 
-* @date 2016/10/14
-* @version 1.0 
-* @parameter  
-*/
+/**
+ * è®¢å•çŠ¶æ€pojoç±»<br>
+ * create:2016-10-23 18:55
+ *
+ * @author zhou
+ * @version 1.0
+ */
 public class Status {
 
-	private Integer id;
-	private String status;
-	private Set<Forder> forders = new HashSet<Forder>(0);
-	
-	//¹¹Ôì·½·¨
-	public Status(Integer id, String status, Set<Forder> forders) {
-		super();
-		this.id = id;
-		this.status = status;
-		this.forders = forders;
-	}
+    private Integer id;
+    private String status;
+    private Set<Forder> forders = new HashSet<Forder>(0);
 
-	//get/set·½·¨
-	public Integer getId() {
-		return id;
-	}
+    public Status(Integer id, String status, Set<Forder> forders) {
+        this.id = id;
+        this.status = status;
+        this.forders = forders;
+    }
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public String getStatus() {
-		return status;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public void setStatus(String status) {
-		this.status = status;
-	}
+    public String getStatus() {
+        return status;
+    }
 
-	public Set<Forder> getForders() {
-		return forders;
-	}
+    public void setStatus(String status) {
+        this.status = status;
+    }
 
-	public void setForders(Set<Forder> forders) {
-		this.forders = forders;
-	}
-	
-	
-	
-	
+    public Set<Forder> getForders() {
+        return forders;
+    }
+
+    public void setForders(Set<Forder> forders) {
+        this.forders = forders;
+    }
 }
