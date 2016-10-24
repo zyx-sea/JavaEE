@@ -16,11 +16,46 @@
         resultType：输出结果 类型，不管返回是多条还是单条，指定单条记录映射的pojo类型
      -->
     <select id="findUserById" parameterType="int" resultType="cn.qd.mybatis.pojo.User">
-        SELECT * FROM USER WHERE id=#{id}
+        SELECT *
+        FROM USER
+        WHERE id = #{id}
     </select>
 
-    <!-- 根据用户名称查询 -->
+    <!-- 根据用户名称查询用户信息，可能返回多条
+	${}：表示sql的拼接，通过${}接收参数，将参数的内容不加任何修饰拼接在sql中。
+	-->
     <select id="findUserByName" parameterType="java.lang.String" resultType="cn.qd.mybatis.pojo.User">
-
+        SELECT *
+        FROM user
+        WHERE username LIKE '${value}';
     </select>
+
+    <!-- 添加用户
+parameterType：输入 参数的类型，User对象 包括 username,birthday,sex,address
+#{}接收pojo数据，可以使用OGNL解析出pojo的属性值
+#{username}表示从parameterType中获取pojo的属性值
+selectKey：用于进行主键返回，定义了获取主键值的sql
+order：设置selectKey中sql执行的顺序，相对于insert语句来说
+keyProperty：将主键值设置到哪个属性
+resultType：select LAST_INSERT_ID()的结果 类型
+
+ -->
+    <select id="insertUser" parameterType="cn.qd.mybatis.pojo.User">
+        <!--  <selectKey keyProperty="id" order="AFTER" resultType="int">
+              SELECT LAST_INSERT_ID()
+          </selectKey>-->
+        INSERT INTO User (username, birthday, sex, address) VALUES (#{username}, #{birthday}, #{sex}, #{address});
+    </select>
+
+    <!--用户的删除-->
+    <delete id="deleteUser" parameterType="int">
+        DELETE FROM user
+        WHERE id = #{id}
+    </delete>
+    <!--    用户更新要求：传入的user对象中包含id主键属性-->
+    <update id="updateUser" parameterType="cn.qd.mybatis.pojo.User">
+        UPDATE User
+        SET username =#{username}, birthday =#{birthday}, sex =#{sex}, address =#{address}
+        WHERE id = #{id}
+    </update>
 </mapper>

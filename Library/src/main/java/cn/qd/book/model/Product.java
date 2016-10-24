@@ -20,10 +20,9 @@ public class Product {
     private String remark;
     private String xremark;
     private Date date;
-    private Boolean commend;
-    private Boolean open;
+    private int open;
 
-    public Product(Integer id, Category category, String name, BigDecimal price, String pic, String remark, String xremark, Date date, Boolean commend, Boolean open) {
+    public Product(Integer id, Category category, String name, BigDecimal price, String pic, String remark, String xremark, Date date, int open) {
         this.id = id;
         this.category = category;
         this.name = name;
@@ -32,7 +31,6 @@ public class Product {
         this.remark = remark;
         this.xremark = xremark;
         this.date = date;
-        this.commend = commend;
         this.open = open;
     }
 
@@ -100,19 +98,11 @@ public class Product {
         this.date = date;
     }
 
-    public Boolean getCommend() {
-        return commend;
-    }
-
-    public void setCommend(Boolean commend) {
-        this.commend = commend;
-    }
-
-    public Boolean getOpen() {
+    public int getOpen() {
         return open;
     }
 
-    public void setOpen(Boolean open) {
+    public void setOpen(int open) {
         this.open = open;
     }
 }

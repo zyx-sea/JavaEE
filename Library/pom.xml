@@ -1,49 +1,112 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>cn.qd.lib</groupId>
-  <artifactId>Library</artifactId>
-  <packaging>war</packaging>
-  <version>0.0.1-SNAPSHOT</version>
-  <name>Library Maven Webapp</name>
-  <url>http://maven.apache.org</url>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    
-	<dependency>
-    	<groupId>mysql</groupId>
-    	<artifactId>mysql-connector-java</artifactId>
-    	<version>5.1.38</version>
-	</dependency>
-    
-    <dependency>
-    	<groupId>javax.servlet</groupId>
-    	<artifactId>javax.servlet-api</artifactId>
-    	<version>3.1.0</version>
-    	<scope>provided</scope>
-	</dependency>
-    
-    <dependency>
-    	<groupId>org.apache.struts</groupId>
-    	<artifactId>struts2-core</artifactId>
-    	<version>2.5</version>
-	</dependency>
-	
-	 <dependency>
-    	<groupId>org.mybatis</groupId>
-    	<artifactId>mybatis</artifactId>
-    	<version>3.2.8</version>
-	</dependency>
-	<dependency>
-    	<groupId>jstl</groupId>
-    	<artifactId>jstl</artifactId>
-    	<version>1.2</version>
-	</dependency>
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  </dependencies>
+    <groupId>cn.qd.book</groupId>
+    <artifactId>Library</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+
+        <junit.version>4.12</junit.version>
+
+        <!-- 整合Log4j -->
+        <log4j.version>1.2.17</log4j.version>
+
+        <!-- Mybatis-->
+        <mybatis.version>3.4.1</mybatis.version>
+
+        <!--JSTL-->
+        <jstl.version>1.1.0</jstl.version>
+
+        <!--mysql连接-->
+        <mysql.version>6.0.4</mysql.version>
+
+
+        <!--struts-core-->
+        <struts-core.version>2.5.2</struts-core.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <!-- <scope>test</scope>-->
+        </dependency>
+
+
+        <!-- 整合Log4j -->
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <!-- 【Mybatis】 -->
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${mybatis.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
+        </dependency>
+
+        <!-- jstl -->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
+        </dependency>
+
+        <!-- struts2-core -->
+        <dependency>
+            <groupId>org.apache.struts</groupId>
+            <artifactId>struts2-core</artifactId>
+            <version>${struts-core.version}</version>
+        </dependency>
+
+
+    </dependencies>
+
+    <build>
+        <!-- 配置maven对resource文件过滤 -->
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
+        <!-- 配置resource文件编码为UTF-8 -->
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

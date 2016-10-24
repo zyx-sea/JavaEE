@@ -14,15 +14,15 @@ public class User {
 
     private Integer id;
     private String name;
-    private String pass;
+    private String password;
     private String sex;
     private String phone;
     private Set<Forder> forders = new HashSet<Forder>(0);
 
-    public User(Integer id, String name, String pass, String sex, String phone, Set<Forder> forders) {
+    public User(Integer id, String name, String password, String sex, String phone, Set<Forder> forders) {
         this.id = id;
         this.name = name;
-        this.pass = pass;
+        this.password = password;
         this.sex = sex;
         this.phone = phone;
         this.forders = forders;
@@ -45,11 +45,11 @@ public class User {
     }
 
     public String getPass() {
-        return pass;
+        return password;
     }
 
-    public void setPass(String pass) {
-        this.pass = pass;
+    public void setPass(String password) {
+        this.password = password;
     }
 
     public String getSex() {

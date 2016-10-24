@@ -9,7 +9,7 @@
 <html>
 <head>
     <title>头部</title>
-    <link type="text/css" rel="stylesheet" href="Css/1024_768.css" />
+    <link type="text/css" rel="stylesheet" href="Css/1024_768.css"/>
 </head>
 <body>
 <div class="w_100_l top_title">

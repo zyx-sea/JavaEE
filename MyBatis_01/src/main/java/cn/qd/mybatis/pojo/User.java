@@ -4,52 +4,61 @@ import java.util.Date;
 
 /**
  * @author July
- * @date 2016/10/21
  * @version 1.0
+ * @date 2016/10/21
  * @Description 用户实体类
  */
 public class User {
 
-	private int id;
-	private String username;
-	private Date birthday;
-	private String address;
+    private int id;
+    private String username;
+    private Date birthday;
+    private String address;
+    private String Sex;
 
-	public int getId() {
-		return id;
-	}
+    public String getSex() {
+        return Sex;
+    }
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    public void setSex(String sex) {
+        Sex = sex;
+    }
 
-	public String getUsername() {
-		return username;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	public Date getBirthday() {
-		return birthday;
-	}
+    public String getUsername() {
+        return username;
+    }
 
-	public void setBirthday(Date birthday) {
-		this.birthday = birthday;
-	}
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-	public String getAddress() {
-		return address;
-	}
+    public Date getBirthday() {
+        return birthday;
+    }
 
-	public void setAddress(String address) {
-		this.address = address;
-	}
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
 
-	@Override
-	public String toString() {
-		return "User [id=" + id + ", username=" + username + ", birthday=" + birthday + ", address=" + address + "]";
-	}
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "User [id=" + id + ", username=" + username + ", birthday=" + birthday + ", address=" + address + "]";
+    }
 
 }
