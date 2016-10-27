@@ -19,6 +19,7 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="sqlmap/Productmapper.xml"/>
+        <mapper resource="sqlmap/ProductMapper.xml"/>
+        <mapper resource="sqlmap/SorderMapper.xml"/>
     </mappers>
 </configuration>

@@ -2,9 +2,13 @@ package cn.qd.book.dao.impl;
 
 import cn.qd.book.dao.ProductDao;
 import cn.qd.book.model.Product;
+import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.junit.Test;
 
+import java.io.InputStream;
 import java.util.List;
 
 /**
@@ -14,20 +18,35 @@ import java.util.List;
  * @author zhou
  * @version 1.0
  */
-public class ProductDaoImpl implements ProductDao{
+public class ProductDaoImpl implements ProductDao {
 
-private SqlSessionFactory sqlSessionFactory;
+    private SqlSessionFactory sqlSessionFactory=null;
+    private SqlSession sqlSession=null;
 
-    public ProductDaoImpl(SqlSessionFactory sqlSessionFactory) {
-        this.sqlSessionFactory = sqlSessionFactory;
+    public ProductDaoImpl() throws Exception {
+        // 配置文件（SqlMapConfig.xml）
+        String resource = "SqlMapConfig.xml";
+
+        // 加载配置文件到输入流
+        InputStream inputStream = Resources.getResourceAsStream(resource);
+
+        // 创建会话工厂
+        sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
     }
 
-    @Override
-    public List<Product> findProductAll(int open) throws Exception {
+    @Test
+    public List<Product> findProductAll( ) throws Exception {
 
-        SqlSession sqlSession=sqlSessionFactory.openSession();
-        List<Product> list=sqlSession.selectList("product.findProductAll",open);
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        List<Product> products = sqlSession.selectList("product.findProductAll");
         sqlSession.close();
-        return list;
+        return products;
+    }
+
+    public String findProductPic(int id) throws Exception {
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        String pic = sqlSession.selectOne("product.findProductPic",id);
+        sqlSession.close();
+        return pic;
     }
 }

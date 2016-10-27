@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
 
+<struts>
+    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
 
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="product" class="cn.qd.book.action.ProductAction" method="findall">
+            <result name="findall">
+                /index.jsp?products=${products}
+            </result>
+        </action>
+        <action name="product_2" class="cn.qd.book.action.ProductAction" method="findpic">
+        <result name="findpic">
+            /show.jsp?product=${product}
+        </result>
+        </action>
 
+        <action name="sorder" class="cn.qd.book.action.SorderAction" method="addsorder">
+            <result name="addsorder">
+                /shopped.jsp
+            </result>
+        </action>
 
+        <action name="sorder_2" class="cn.qd.book.action.SorderAction" method="delsorder">
+            <result name="delsorder">
+                /shopped.jsp
+            </result>
+        </action>
 
-
-
-
+        <action name="sorder_3" class="cn.qd.book.action.SorderAction" method="findsorder">
+            <result name="findsorder">
+                /shoppingcart.jsp?sorder=${sorders}
+            </result>
+        </action>
+    </package>
+</struts>

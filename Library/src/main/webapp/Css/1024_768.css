@@ -9,10 +9,10 @@ body {
     float: left;
 }
 
-.top_title {
+/*.top_title {
     background: url(../Images/top_title_bg.jpg) 0 0 repeat-x;
     height: 42px;
-}
+
 
 .top_title .main p {
     width: 100%;
@@ -31,7 +31,7 @@ body {
 .top_title .main p a:hover {
     opacity: 0.7;
 }
-
+}*/
 .main {
     width: 960px;
     height: auto;
@@ -39,19 +39,20 @@ body {
 }
 
 .top_banner {
-    width: 960px;;
+    width: 100%;
     height: auto;
     display: inline;
     float: left;
     position: relative;
+    margin-left: 160px;
 }
 
 .top_logo {
     width: 246px;
     height: 67px;
     display: inline;
-    float: left;
     overflow: hidden;
+    float: left;
     margin-top: 25px;
 }
 
@@ -67,7 +68,7 @@ body {
     height: auto;
     display: inline;
     float: left;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .top_menu ul {
@@ -317,8 +318,8 @@ body {
 
 .press_porsen_02 h1 .span_1 {
     width: auto;
-    padding-left: 13px;
-    background: url(../Images/icon_tel.jpg) left center no-repeat;
+    padding-left: 13px;/*
+    background: url(../Images/icon_tel.jpg) left center no-repeat;*/
     margin-left: 10px;
     float: right;
 }

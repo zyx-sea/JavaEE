@@ -500,6 +500,7 @@ input {
 }
 
 .intermediate_box_tj {
+    margin-top: 50px;
     height: auto;
     min-height: 145px;
     _height: expression(this.scrollHeight < 145 ? "145px":"auto")

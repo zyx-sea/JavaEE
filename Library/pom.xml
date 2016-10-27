@@ -13,17 +13,20 @@
         <junit.version>4.12</junit.version>
 
         <!-- 整合Log4j -->
+        <slf4j.version>1.7.21</slf4j.version>
         <log4j.version>1.2.17</log4j.version>
 
         <!-- Mybatis-->
         <mybatis.version>3.4.1</mybatis.version>
 
         <!--JSTL-->
-        <jstl.version>1.1.0</jstl.version>
+        <jstl.version>1.2</jstl.version>
 
         <!--mysql连接-->
         <mysql.version>6.0.4</mysql.version>
 
+        <!-- servlet api-->
+        <servlet.version>3.1.0</servlet.version>
 
         <!--struts-core-->
         <struts-core.version>2.5.2</struts-core.version>
@@ -39,6 +42,17 @@
 
 
         <!-- 整合Log4j -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>log4j</groupId>
@@ -66,11 +80,19 @@
             <version>${jstl.version}</version>
         </dependency>
 
+
         <!-- struts2-core -->
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-core</artifactId>
             <version>${struts-core.version}</version>
+        </dependency>
+
+        <!-- javax.servlet-api -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet.version}</version>
         </dependency>
 
 
