@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.qd.book.model.Product"  >
+
+    <!--查询出商品表所有信息-->
+    <select id="findProductAll" resultType="cn.qd.book.model.Product">
+        select * from product where open=1;
+    </select>
+
+    <select id="findProductPic" parameterType="int" resultType="cn.qd.book.model.Product">
+        select pic from product where id=#{id};
+    </select>
+
+</mapper>
