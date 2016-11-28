@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.devMode" value="true"/>
+
+    <package name="default" namespace="/" extends="json-default" strict-method-invocation="false">
+
+        <!--首页-->
+        <action name="index" class="cn.zh.shop.action.IndexAction">
+            <result name="index_success">/WEB-INF/jsp/index.jsp</result>
+        </action>
+
+        <action name="login" class="cn.zh.shop.action.UserAction" method="check">
+<!--            <result name="error" type="json">
+                <param name="excludeProperties">
+                    message
+                </param>
+            </result>-->
+            <result  name="success"  type="chain">index</result>
+            <result name="none">/WEB-INF/jsp/user/login.jsp</result>
+        </action>
+
+        <action name="show" class="cn.zh.shop.action.ContentAction" method="findshow">
+            <result name="findshow">/WEB-INF/jsp/content/show.jsp</result>
+        </action>
+
+
+
+    </package>
+</struts>
