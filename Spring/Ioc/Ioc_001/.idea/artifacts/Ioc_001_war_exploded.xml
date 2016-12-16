@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Ioc_001:war exploded">
+    <output-path>$PROJECT_DIR$/target/Ioc_001</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Ioc_001" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Ioc_001/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="Ioc_001/web/Web" />
+    </root>
+  </artifact>
+</component>
