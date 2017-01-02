@@ -1,6 +1,6 @@
 package cn.zh.shop.service.impl;
 
-import cn.zh.shop.mapper.UserMapper;
+import cn.zh.shop.dao.UserMapper;
 import cn.zh.shop.model.Person;
 import cn.zh.shop.service.inter.UserService;
 import org.apache.ibatis.io.Resources;

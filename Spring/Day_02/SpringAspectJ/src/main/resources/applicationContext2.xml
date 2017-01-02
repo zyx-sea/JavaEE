@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!--被代理对象-->
+    <bean id="productDao" class="aspectj.baenxml.ProductDao"></bean>
+    <!--切面对象-->
+    <bean id="myaspect" class="aspectj.baenxml.MyAspect"></bean>
+
+    <!--使用xml配置增强-->
+    <aop:config>
+        <!--定义切面-->
+        <aop:aspect ref="myaspect">
+            <!--切点-->
+            <aop:pointcut id="mypointcut" expression="execution(* aspectj.baenxml.ProductDao.*(..))"/>
+            <!--<aop:pointcut id="mypointcut2" expression="execution(* aspectj.baenxml.ProductDao.delete(..))"/>-->
+            <!--通知-->
+            <!--前置增强通知--><!--
+            <aop:before method="before" pointcut-ref="mypointcut"/>-->
+            <!--后置增强通知-->
+           <!-- <aop:after-returning method="after" returning="returnValue" pointcut-ref="mypointcut2"/>-->
+            <aop:around method="around" pointcut-ref="mypointcut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

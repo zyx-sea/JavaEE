@@ -50,6 +50,7 @@ public class UserAction implements ModelDriven<Person> {
 
     @Override
     public Person getModel() {
+
         return person;
     }
 }

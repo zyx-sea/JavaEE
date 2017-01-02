@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name="struts.devMode" value="true"/>
+    <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+
+    <package  name="default" namespace="/" extends="struts-default">
+        <!--<glpbal-allowed-methods>findall</glpbal-allowed-methods>-->
+
+       <!-- 设置全局结果
+        <global-results>
+            <result name="message">/message.jsp</result>
+        </global-results>-->
+
+        <action name="Product_findall" class="cn.qd.book.action.ProductAction" method="findall">
+            <result name="findall">
+                /index.jsp?product=${product}
+            </result>
+        </action>
+
+        <action name="Product_findpic" class="cn.qd.book.action.ProductAction" method="findpic">
+            <result name="findpic">
+                /show.jsp?product=${product}
+            </result>
+        </action>
+        <!--<action name="*_*" class="cn.qd.book.action.{1}Action" method="{2}">
+            <result name="findall">
+                /index.jsp
+            </result>
+            <result name="findpic">
+                /show.jsp?product=${product}
+            </result>
+
+            <result name="addsorder">
+                /shopped.jsp
+            </result>
+            <result name="delsorder">
+                /shopped.jsp
+            </result>
+            <result name="findsorder">
+                /shoppingcart.jsp?sorder=${sorders}
+            </result>
+        </action>-->
+    </package>
+</struts>

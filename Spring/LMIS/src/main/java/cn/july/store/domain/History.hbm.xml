@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="cn.july.store.domain.History" table="history" catalog="sshexec">
+        <id name="id" type="java.lang.String">
+            <column name="id" length="32" />
+            <generator class="uuid" />
+        </id>
+        <many-to-one name="goods" class="cn.july.store.domain.Goods" fetch="select">
+            <column name="goodsid" length="32" />
+        </many-to-one>
+        <property name="datetime" type="java.lang.String">
+            <column name="datetime" length="19" />
+        </property>
+        <property name="type" type="java.lang.String">
+            <column name="_type" length="1" />
+        </property>
+        <property name="amount" type="java.lang.Double">
+            <column name="amount" precision="10" />
+        </property>
+        <property name="remain" type="java.lang.Double">
+            <column name="remain" precision="10" />
+        </property>
+        <property name="user" type="java.lang.String">
+            <column name="_user" length="50" />
+        </property>
+    </class>
+</hibernate-mapping>

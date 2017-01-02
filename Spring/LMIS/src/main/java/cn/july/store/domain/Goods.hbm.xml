@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="cn.july.store.domain.Goods" table="goods" catalog="sshexec">
+        <id name="id" type="java.lang.String">
+            <column name="id" length="32" />
+            <generator class="uuid" />
+        </id>
+        <many-to-one name="store" class="cn.july.store.domain.Store" fetch="select">
+            <column name="storeid" length="32" />
+        </many-to-one>
+        <property name="name" type="java.lang.String">
+            <column name="name" length="50" />
+        </property>
+        <property name="nm" type="java.lang.String">
+            <column name="nm" length="10" />
+        </property>
+        <property name="unit" type="java.lang.String">
+            <column name="unit" length="10" />
+        </property>
+        <property name="amount" type="java.lang.Double">
+            <column name="amount" precision="10" />
+        </property>
+        <set name="histories" inverse="true">
+            <key>
+                <column name="goodsid" length="32" />
+            </key>
+            <one-to-many class="cn.july.store.domain.History" />
+        </set>
+    </class>
+</hibernate-mapping>

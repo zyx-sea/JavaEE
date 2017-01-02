@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- ——————快速入门案例——————————-->
+    <!--配置实现类对接口类的实例化-->
+    <!--配置实现类Hello,名称为hello-->
+    <bean name="hello" class="serv.Hello">
+        <!--依赖注入，Hello依赖的属性str,-->
+        <property name="str" value="寄几"/>
+    </bean>
+
+    <!--——————快速入门案例————END——————-->
+    <!--——————Bean的实例化的三种方式——————————-->
+    <!--无参数的构造器-->
+    <bean id="bean1" class="beantest.Bean1"></bean>
+    <!--静态工厂方法,class是工厂的完整类名，factory-method是工厂提供静态方法-->
+    <bean id="bean2" class="beantest.Bean2Factory" factory-method="getBean2"></bean>
+    <!--实例化工厂方法，需要创建工厂实例，再创建目标Bean实例-->
+    <bean id="bean3Factory" class="beantest.Bean3Factory"></bean>
+    <bean id="bean3" factory-bean="bean3Factory" factory-method="getbean3"></bean>
+    <!--——————Bean的实例化的三种方式————END——————-->
+
+    <!--scope取值——————————————————————-->
+    <!--如果没有指定scope,默认值就是singleton-->
+    <bean id="product" class="scope.Product"></bean>
+    <!--指定scope为prototype-->
+    <bean id="product2" class="scope.Product" scope="prototype"></bean>
+    <!--scope取值——————————————————end————-->
+
+    <!--bean生命周期——————————————-->
+    <!--通过init-method指定初始化的方法，通过destroy-method指定销毁方法-->
+    <bean id="lifecyclebean" class="lifecycle.LifeCycleBean" init-method="setup" destroy-method="shutdown"></bean>
+    <bean id="userdao" class="lifecycle.UserImpl"></bean>
+    <!--配置后处理bean-->
+    <!--无需配置框架自身调用-->
+    <bean class="lifecycle.MyBeanPostPrecessor"></bean>
+    <!--bean生命周期——————————end————-->
+
+
+</beans>

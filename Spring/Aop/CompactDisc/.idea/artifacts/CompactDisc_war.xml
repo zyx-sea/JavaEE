@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CompactDisc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="CompactDisc.war">
+      <element id="artifact" artifact-name="CompactDisc:war exploded" />
+    </root>
+  </artifact>
+</component>

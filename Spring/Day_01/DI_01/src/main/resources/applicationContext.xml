@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--对象属性依赖注入——————————————-->
+    <bean name="car" class="inject.Car">
+        <!--通过构造器注入-->
+        <constructor-arg index="0" type="java.lang.String" value="保时捷"></constructor-arg>
+        <constructor-arg index="1" type="double" value="1000000"></constructor-arg>
+    </bean>
+    <!--set方法属性注入-->
+    <bean name="cycle" class="inject.Cycle">
+        <property name="name" value="红旗"></property>
+        <property name="count" value="3"></property>
+    </bean>
+    <!--spring2.5版本 引入名称空间p， 简化属性注入的配置-->
+    <!--p:<属性名>="xxx" 引入常量值-->
+    <!--p:<属性名>-ref="xxx" 引用其它Bean对象-->
+    <!--<bean name="cycle" class="inject.Cycle" p:name="红旗" p:count="4"></bean>-->
+    <!--对象属性依赖注入——————————end————-->
+
+
+    <!-- 使用SpEL完成属性注入—————spring3.0之后新添加的————————————————-->
+    <bean id="carinfo" class="inject.CarInfo"></bean>
+    <bean id="cycle2" class="inject.Cycle">
+        <property name="name" value="#{carinfo.name}"></property>
+    </bean>
+    <!-- 使用SpEL完成属性注入————————————————End—————-->
+
+    <!--集合属性的注入 —————————————————————-->
+    <!--spring框架中引入多个xml配置文件-->
+    <import resource="classpath:bean1.xml"></import>
+    <!--集合属性的注入 ————————————————End—————-->
+</beans>

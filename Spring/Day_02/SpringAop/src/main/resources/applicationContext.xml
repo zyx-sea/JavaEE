@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--不带有切点和切面===========================================-->
+    <!--被代理对象-->
+    <bean id="customDao" class="advisor.CustomDaoImpl"></bean>
+
+    <!--增强-->
+    <bean id="myadvisor" class="advisor.MyMehodBeforeAdvice"></bean>
+    <!--创建-->
+    <bean id="myproxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!--目标-->
+        <property name="target" ref="customDao"></property>
+        <!--针对接口代理-->
+        <property name="proxyInterfaces" value="advisor.CustomDao"></property>
+        <!--增强 interceptorNames表示可以运用多个Advice-->
+        <property name="interceptorNames" value="myadvisor"></property>
+    </bean>
+    <!--带有切点的切面===========================================-->
+    <!--被代理对象-->
+    <bean id="orderDao" class="pointcut_advisor.OrderDao"></bean>
+    <!--增强-->
+    <bean id="methodinterceptor" class="pointcut_advisor.MyMethodInterceptor"></bean>
+    <!--定义切点切面-->
+    <bean name="pointadvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+        <!--正则表达式规则-->
+        <!--全部加切点-->
+        <!--<property name="pattern" value=".*"></property>  -->
+        <!--单个方法-->
+        <!--<property name="pattern" value="pointcut_advisor\.OrderDao\.add.*"></property>-->
+        <!--多个方法-->
+        <property name="patterns" value=".*add.*,.*update.*"></property>
+        <property name="advice" ref="methodinterceptor"></property>
+
+    </bean>
+    <!--创建代理-->
+    <bean id="orderDaoProxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <!--目标-->
+        <property name="target" ref="orderDao"></property>
+        <!--针对类代理-->
+        <property name="proxyTargetClass" value="true"></property>
+        <!--增强-->
+        <property name="interceptorNames" value="pointadvisor"></property>
+    </bean>
+
+</beans>

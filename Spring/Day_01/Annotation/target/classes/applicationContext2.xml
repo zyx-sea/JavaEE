@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+                    http://www.springframework.org/schema/context
+                    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+    <context:component-scan base-package="xmlcompl"></context:component-scan>
+    <bean id="customdao" class="xmlcompl.CustomDao"></bean>
+    <bean id="order" class="xmlcompl.OrderDao"></bean>
+    <!--将这两个DAO注入-->
+    <!--xml负责bean的配置，注解负责属性注入-->
+    <!--启用四个自动注解-->
+    <context:annotation-config/>
+    <!-- bean declarations go here -->
+</beans>

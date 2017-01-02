@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="user" class="dao.impl.UserDaoImpl"/>
+    <bean id="userService" class="service.UserService">
+        <property name="userDao" bean="user"/>
+        //作用是实现setDao()这个方法
+    </bean>
+
+</beans>

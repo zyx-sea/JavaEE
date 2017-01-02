@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="cn.july.store.domain.Store" table="store" catalog="sshexec">
+        <id name="id" type="java.lang.String">
+            <column name="id" length="32" />
+            <generator class="uuid" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="name" length="32" />
+        </property>
+        <property name="addr" type="java.lang.String">
+            <column name="addr" length="100" />
+        </property>
+        <property name="manager" type="java.lang.String">
+            <column name="manager" length="32" />
+        </property>
+        <set name="goodses" inverse="true">
+            <key>
+                <column name="storeid" length="32" />
+            </key>
+            <one-to-many class="cn.july.store.domain.Goods" />
+        </set>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,189 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>cn.qd.lmis</groupId>
+    <artifactId>LMIS</artifactId>
+    <packaging>war</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <name>LMIS Maven Webapp</name>
+    <url>http://maven.apache.org</url>
+    <properties>
+        <!-- 【Spring】 -->
+        <spring.version>4.3.3.RELEASE</spring.version>
+        <!--测试-->
+        <junit_version>4.12</junit_version>
+        <!--mysql连接-->
+        <mysql_version>5.1.6</mysql_version>
+        <!--jstl表达式-->
+        <jstl_version>1.2</jstl_version>
+        <!--struts2-->
+        <struts_version>2.5.5</struts_version>
+        <!--hibernate-->
+        <hibernate_version>5.2.5.Final</hibernate_version>
+        <!--c3p0-->
+        <c3p0_version>0.9.5.2</c3p0_version>
+        <!--xwork_version-->
+        <xwork_version>2.3.31</xwork_version>
+    </properties>
+    <dependencies>
+        <!--&lt;!&ndash; c3p0 &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.mchange</groupId>-->
+            <!--<artifactId>c3p0</artifactId>-->
+            <!--<version>${c3p0_version}</version>-->
+        <!--</dependency>-->
+        <!-- xwork-core -->
+        <dependency>
+            <groupId>org.apache.struts.xwork</groupId>
+            <artifactId>xwork-core</artifactId>
+            <version>${xwork_version}</version>
+        </dependency>
+
+        <!--&lt;!&ndash; struts2-core &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.struts</groupId>-->
+            <!--<artifactId>struts2-core</artifactId>-->
+            <!--<version>${struts_version}</version>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<artifactId>ognl</artifactId>-->
+                    <!--<groupId>ognl</groupId>-->
+                <!--</exclusion>-->
+                <!--<exclusion>-->
+                    <!--<artifactId>commons-lang3</artifactId>-->
+                    <!--<groupId>org.apache.commons</groupId>-->
+                <!--</exclusion>-->
+                <!--<exclusion>-->
+                    <!--<artifactId>commons-io</artifactId>-->
+                    <!--<groupId>commons-io</groupId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash; struts2-convention-plugin &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.struts</groupId>-->
+            <!--<artifactId>struts2-convention-plugin</artifactId>-->
+            <!--<version>2.5.5</version>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<artifactId>commons-lang3</artifactId>-->
+                    <!--<groupId>org.apache.commons</groupId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
+
+        <!-- hibernate-core -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>${hibernate_version}</version>
+        </dependency>
+
+        <!--jstl-->
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl_version}</version>
+        </dependency>
+        <!--mysql数据库连接-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql_version}</version>
+        </dependency>
+
+        <!--测试包-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit_version}</version>
+        </dependency>
+        <!-- 【Spring】 -->
+        <!-- 核心包 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-expression</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- AOP -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aop</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- JdbcTemplate -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- 事务管理 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <!-- Spring整合其他ORM框架 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-orm</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- Spring在web中使用 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- Spring整合Junit测试 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit_version}</version>
+        </dependency>
+        <!--        &lt;!&ndash; spring-hibernate3 &ndash;&gt;
+                <dependency>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-hibernate3</artifactId>
+                    <version>2.0.8</version>
+                </dependency>-->
+
+    </dependencies>
+    <build>
+        <finalName>LMIS</finalName>
+    </build>
+</project>

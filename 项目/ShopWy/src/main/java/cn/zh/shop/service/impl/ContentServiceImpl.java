@@ -1,6 +1,6 @@
 package cn.zh.shop.service.impl;
 
-import cn.zh.shop.mapper.ContentMapper;
+import cn.zh.shop.dao.ContentMapper;
 import cn.zh.shop.model.Content;
 import cn.zh.shop.service.inter.ContentService;
 import org.apache.ibatis.io.Resources;

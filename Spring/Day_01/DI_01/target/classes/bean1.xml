@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="collection" class="collection.CollectionBean">
+    <property name="hobby">
+        <list>
+            <!--<value>只能注入简单类型 <ref>注入复杂类型-->
+            <!--数组注入和list一样，只是换成<set>-->
+            <value>唱歌</value>
+            <value>书法</value>
+            <value>游泳</value>
+        </list>
+    </property>
+        <!--map的注入—复杂的注入要用<key-ref>————————————-->
+        <!--properties的和map的类似，只是换成<prps>-->
+        <property name="student">
+            <map>
+                <entry key="name" value="张晓华"/>
+                <entry key="address" value="中国山东省"/>
+            </map>
+        </property>
+    </bean>
+
+</beans>

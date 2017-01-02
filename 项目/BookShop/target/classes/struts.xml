@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="default" namespace="/" extends="json-default">
+        <action name="login" class="cn.july.shop.action.LoginAction" method="login">
+            <!--<result name="success" >/index.jsp</result>-->
+            <result name="success" type="chain">index</result>
+            <result name="error">/jsp/user/login.jsp</result>
+        </action>
+        <action name="index" class="cn.july.shop.action.IndexAction" method="findall">
+            <result name="show_success">/jsp/index/index.jsp</result>
+            <result name="show_error">/jsp/user/login.jsp</result>
+        </action>
+        <action name="show" class="cn.july.shop.action.ShowContentAction" method="findshow">
+            <result name="show_byid">/jsp/content/show.jsp</result>
+        </action>
+        <action name="edit" class="cn.july.shop.action.ShowContentAction" method="findshow">
+            <result name="show_byid">/jsp/content/edit.jsp</result>
+        </action>
+        <action name="account_show" class="cn.july.shop.action.TrxAction" method="showTrx">
+            <result name="show_success">/jsp/trx/account.jsp</result>
+        </action>
+        <action name="public" class="cn.july.shop.action.ContentAction" method="insertContent">
+            <result name="public_success">/jsp/content/publicSubmit.jsp</result>
+            <result name="public_error">/jsp/content/public.jsp</result>
+        </action>
+        <action name="update_content" class="cn.july.shop.action.ContentAction" method="updateContent">
+            <result name="update_success">/jsp/content/editSubmit.jsp</result>
+            <result name="update_error">/jsp/content/edit.jsp</result>
+        </action>
+        <action name="delete_content" class="cn.july.shop.action.ShowContentAction" method="deleteContent">
+            <result name="delete_success">/jsp/content/deleteSubmit.jsp</result>
+        </action>
+        <action name="buy" class="cn.july.shop.action.BuyAction" method="buy">
+            <result name="message" type="json">
+                <param name="code">code</param>
+                <param name="result">result</param>
+            </result>
+        </action>
+    </package>
+</struts>
