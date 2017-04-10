@@ -2,8 +2,6 @@ package cn.zh.shop.action;
 
 import cn.zh.shop.model.Content;
 import cn.zh.shop.service.impl.ContentServiceImpl;
-import com.opensymphony.xwork2.ActionSupport;
-import com.opensymphony.xwork2.ModelDriven;
 
 import java.util.List;
 
