@@ -107,9 +107,9 @@ $(document).ready(function() {
 		});
 
 
-		if ($('#passwd').val().length < pwdmin) {
+		if ($('#passwd').val().length < 6) {
 			$('#passwd').focus();
-			$('#userCue').html("<font color='red'><b>×密码不能小于" + pwdmin + "位</b></font>");
+			$('#userCue').html("<font color='red'><b>×密码不能小于6位</b></font>");
 			return false;
 		}
 		if ($('#passwd2').val() != $('#passwd').val()) {
@@ -118,7 +118,7 @@ $(document).ready(function() {
 			return false;
 		}
 
-		var sqq = /^[1-9]{1}[0-9]{4,9}$/;
+		/*var sqq = /^[1-9]{1}[0-9]{4,9}$/;
 		if (!sqq.test($('#qq').val()) || $('#qq').val().length < 5 || $('#qq').val().length > 12) {
 			$('#qq').focus().css({
 				border: "1px solid red",
@@ -131,7 +131,7 @@ $(document).ready(function() {
 				boxShadow: "none"
 			});
 			
-		}
+		}*/
 
 		$('#regUser').submit();
 	});

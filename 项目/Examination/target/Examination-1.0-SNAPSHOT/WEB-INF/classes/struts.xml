@@ -6,12 +6,47 @@
 
 <struts>
     <package name="default" namespace="/" extends="json-default">
+
+        <action name="index">
+            <result>/jsp/login.jsp</result>
+        </action>
+        <action name="admin">
+            <result>/jsp/admin/login.jsp</result>
+        </action>
+
+        <!--普通用户登录-->
         <action name="login" class="team.cn.exam.action.UserAction" method="login">
             <result name="success">/jsp/index.jsp</result>
             <result name="error">/jsp/login.jsp</result>
         </action>
-        <action name="index">
-            <result>/jsp/login.jsp</result>
+
+        <!--管理员登录-->
+        <action name="admin_login" class="team.cn.exam.action.UserAction" method="login2">
+            <result name="success">/jsp/admin/index.jsp</result>
+            <result name="error">/jsp/admin/login.jsp</result>
+        </action>
+
+        <!--用户注册-->
+        <action name="register" class="team.cn.exam.action.UserAction" method="add">
+            <result name="register_success">/jsp/index.jsp</result>
+            <result name="register_error">/jsp/login.jsp</result>
+        </action>
+
+        <!--按照姓名查询用户-->
+        <action name="query" class="team.cn.exam.action.UserAction" method="query">
+            <result name="query_success">/jsp/admin/studentQuery.jsp</result>
+        </action>
+
+        <!--根据id删除用户-->
+        <action name="delete" class="team.cn.exam.action.UserAction" method="delete">
+            <result name="delete_success">/jsp/admin/success.html</result>
+            <result name="delete_error">/jsp/admin/error.html</result>
+        </action>
+
+        <!--运算式生成-->
+        <action name="generate" class="team.cn.exam.action.ExpressionAction" method="generate">
+            <result name="success">/jsp/show.jsp</result>
+            <result name="error">/jsp/admin/error.html</result>
         </action>
 
     </package>

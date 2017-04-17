@@ -32,13 +32,13 @@
                         <div class="uinArea" id="uinArea">
                             <label class="input-tips" for="u">帐号：</label>
                             <div class="inputOuter" id="uArea">
-                                <input type="text" placeholder="6~16位字符" id="u" name="username" class="inputstyle"/>
+                                <input type="text"  name="username"  placeholder="6~16位字符" id="u" class="inputstyle"/>
                             </div>
                         </div>
                         <div class="pwdArea" id="pwdArea">
                             <label class="input-tips" for="p">密码：</label>
                             <div class="inputOuter" id="pArea">
-                                <input type="password" placeholder="6~16位字符或数字" id="p" name="p" class="inputstyle"/>
+                                <input type="password" name="password"  placeholder="6~16位字符或数字" id="p" name="p" class="inputstyle" />
                             </div>
                         </div>
                         <div style="padding-left:50px;margin-top:20px;">
@@ -54,7 +54,7 @@
     <!--注册-->
     <div class="qlogin" id="qlogin" style="display: none; ">
         <div class="web_login">
-            <form name="form2" id="regUser" accept-charset="utf-8"  action="http://www.js-css.cn" method="post">
+            <form name="form2" id="regUser" accept-charset="utf-8"  action="/register" method="post">
                 <input type="hidden" name="to" value="reg"/>
                 <input type="hidden" name="did" value="0"/>
                 <ul class="reg_form" id="reg-ul">
@@ -62,26 +62,26 @@
                     <li>
                         <label for="user"  class="input-tips2">用户名：</label>
                         <div class="inputOuter2">
-                            <input type="text" placeholder="6~16位字符" id="user" name="user" maxlength="16" class="inputstyle2"/>
+                            <input type="text" name="username" placeholder="4~16位字符" id="user"  maxlength="16" class="inputstyle2"/>
                         </div>
                     </li>
                     <li>
                         <label for="passwd" class="input-tips2">密码：</label>
                         <div class="inputOuter2">
-                            <input type="password" placeholder="6~16位字符或字母" id="passwd"  name="passwd" maxlength="16"  class="inputstyle2"/>
+                            <input type="password" name="password" placeholder="6~16位字符或字母" id="passwd"   maxlength="16"  class="inputstyle2"/>
                         </div>
                     </li>
                     <li>
                         <label for="passwd2" class="input-tips2">确认密码：</label>
                         <div class="inputOuter2">
-                            <input type="password" placeholder="和输入密码一致" id="passwd2" name="" maxlength="16" class="inputstyle2" />
+                            <input type="password" placeholder="和输入密码一致" id="passwd2"  maxlength="16" class="inputstyle2" />
                         </div>
                     </li>
                     <li>
                         <label  class="input-tips2">身份：</label>
                         <div class="con_select">
-                            <input type="radio" name="t1" value="教师" />教师&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <input type="radio" name="t1" value="家长" />家长
+                            <input type="radio" name="usertype" value="1" />教师&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input type="radio" name="usertype" value="2" />家长
                         </div>
                     </li>
                     <li>

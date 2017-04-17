@@ -39,6 +39,9 @@
           <element id="library" level="project" name="Maven: commons-dbcp:commons-dbcp:1.4" />
           <element id="library" level="project" name="Maven: commons-pool:commons-pool:1.5.4" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
+          <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-M4" />
+          <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.0.0-M2" />
+          <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-M4" />
         </element>
       </element>
       <element id="directory" name="META-INF">
