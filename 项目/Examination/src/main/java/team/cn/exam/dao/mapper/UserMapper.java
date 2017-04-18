@@ -15,7 +15,7 @@ import team.cn.exam.model.User;
 public interface UserMapper {
 
     /*登录验证*/
-    @Select("select * from user where username=#{username}and password=#{password}and usertype!=0")
+    @Select("select * from user where username=#{username}and password=#{password}")
     public User checkUser(@Param("username")String username,@Param("password")String password);
 
     /*管理员登录*/

@@ -14,27 +14,38 @@
             <result>/jsp/admin/login.jsp</result>
         </action>
 
-        <!--普通用户登录-->
-        <action name="login" class="team.cn.exam.action.UserAction" method="login">
-            <result name="success">/jsp/index.jsp</result>
-            <result name="error">/jsp/login.jsp</result>
-        </action>
-
         <!--管理员登录-->
         <action name="admin_login" class="team.cn.exam.action.UserAction" method="login2">
             <result name="success">/jsp/admin/index.jsp</result>
             <result name="error">/jsp/admin/login.jsp</result>
         </action>
 
+        <!--管理员添加教师用户-->
+        <action name="adduser" class="team.cn.exam.action.UserAction" method="add">
+            <result name="register_success">/jsp/admin/success.html</result>
+            <result name="register_error">/jsp/admin/error.html</result>
+        </action>
+
+        <!--按照姓名查询家长用户-->
+        <action name="query1" class="team.cn.exam.action.UserAction" method="query">
+            <result name="query_success">/jsp/admin/studentQuery.jsp</result>
+        </action>
+
+        <!--按照姓名查询教师用户-->
+        <action name="query2" class="team.cn.exam.action.UserAction" method="query">
+            <result name="query_success">/jsp/admin/teacherQuery.jsp</result>
+        </action>
+
+        <!--普通用户登录-->
+        <action name="login" class="team.cn.exam.action.UserAction" method="login">
+            <result name="success">/jsp/index.jsp</result>
+            <result name="error">/jsp/login.jsp</result>
+        </action>
+
         <!--用户注册-->
         <action name="register" class="team.cn.exam.action.UserAction" method="add">
             <result name="register_success">/jsp/index.jsp</result>
             <result name="register_error">/jsp/login.jsp</result>
-        </action>
-
-        <!--按照姓名查询用户-->
-        <action name="query" class="team.cn.exam.action.UserAction" method="query">
-            <result name="query_success">/jsp/admin/studentQuery.jsp</result>
         </action>
 
         <!--根据id删除用户-->

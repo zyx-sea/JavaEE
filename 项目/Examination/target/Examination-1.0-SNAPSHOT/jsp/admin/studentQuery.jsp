@@ -35,9 +35,9 @@
     </style>
 </head>
 <body>
-<form class="form-inline definewidth m20" action="/query" method="post">
+<form class="form-inline definewidth m20" action="/query1" method="post">
      <font color="#777777"><strong>家长姓名：</strong></font>
-    <input type="text" name="username" id="menuname"class="abc input-default" placeholder="" value="">&nbsp;&nbsp;
+    <input type="text" name="username" id="username"class="abc input-default" placeholder="" value="">&nbsp;&nbsp;
     <button type="submit" class="btn btn-primary">查询</button> 
 </form>
 <!--<table class="table table-bordered table-hover definewidth m10">-->
