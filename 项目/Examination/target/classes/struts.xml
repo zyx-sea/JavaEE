@@ -56,7 +56,7 @@
 
         <!--运算式生成-->
         <action name="generate" class="team.cn.exam.action.ExpressionAction" method="generate">
-            <result name="success">/jsp/show.jsp</result>
+            <result name="success">/jsp/index.jsp</result>
             <result name="error">/jsp/admin/error.html</result>
         </action>
 

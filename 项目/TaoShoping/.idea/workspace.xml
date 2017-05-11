@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="55079707-e809-4757-a1fd-f87fa4377fdb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/taotao_app_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/taotao_app_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoapp/taotao-app.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaodao/taotao-dao.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaopojo/taotao-pojo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotaoservice/taotao-service.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../reqwest.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../vue1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rebel.xml.bak" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/TaoShoping_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/TaoShoping_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/taotaoapp_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/taotaoapp_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/taotaoservice_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/taotaoservice_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/71.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/73.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/74.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/img-sp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/offer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/star1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/images/tag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/js/counterup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/js/easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/js/jquery-1.11.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/js/jquery.flexslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/js/jquery.wmuSlider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/js/minicart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/js/move-top.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/js/okzoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/res/assets/js/waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/philosophy.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/13.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/14.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/15.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/16.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/17.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/18.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/20.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/21.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/22.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/23.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/23.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/24.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/24.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/25.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/25.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/26.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/27.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/28.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/29.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/30.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/30.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/31.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/31.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/32.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/33.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/34.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/34.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/35.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/42.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/46.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/47.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/49.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/51.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/53.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/55.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/64.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/65.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/66.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/68.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/70.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/71.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/72.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/73.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/74.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/card.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/cart.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/img-sp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/offer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/star.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/star1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/images/tag.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/js/counterup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/js/easing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/js/jquery-1.11.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/js/jquery.flexslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/js/jquery.wmuSlider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/js/minicart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/js/move-top.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/js/okzoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/res/assets/js/waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/philosophy.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-dao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-pojo-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShopping_create/target/classes/cn/taotao/july/MpGenerator.class" afterPath="$PROJECT_DIR$/../TaoShopping_create/target/classes/cn/taotao/july/MpGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TaoShoping.iml" afterPath="$PROJECT_DIR$/TaoShoping.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/resources/springmvc.xml" afterPath="$PROJECT_DIR$/taotaoapp/src/main/resources/springmvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/about.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/drinks.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/drinks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/events.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/faqs.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/faqs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/frozen.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/frozen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/household.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/household.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/kitchen.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/kitchen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/mail.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/pet.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/pet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/privacy.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/privacy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/products.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/services.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/short-codes.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/short-codes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/single.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/vegetables.html" afterPath="$PROJECT_DIR$/taotaoapp/src/main/webapp/WEB-INF/jsp/vegetables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/classes/springmvc.xml" afterPath="$PROJECT_DIR$/taotaoapp/target/classes/springmvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/classes/springmvc.xml" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/classes/springmvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/about.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/drinks.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/drinks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/events.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/faqs.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/faqs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/frozen.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/frozen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/household.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/household.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/kitchen.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/kitchen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/mail.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/pet.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/pet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/privacy.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/privacy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/products.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/services.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/short-codes.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/short-codes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/single.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/vegetables.html" afterPath="$PROJECT_DIR$/taotaoapp/target/taotao-app/WEB-INF/jsp/vegetables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShopping_create/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TaoShopping_create/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShopping_create/src/main/java/cn/taotao/july/MpGenerator.java" afterPath="$PROJECT_DIR$/../TaoShopping_create/src/main/java/cn/taotao/july/MpGenerator.java" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/taotaopojo/target/" />
+    <ignored path="$PROJECT_DIR$/taotaoapp/target/" />
+    <ignored path="$PROJECT_DIR$/taotaoservice/target/" />
+    <ignored path="$PROJECT_DIR$/taotaodao/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoapp/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-348">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookPhController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoapp/src/main/java/cn/taotao/july/controller/BookPhController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotaoapp/src/main/java/cn/taotao/july/controller/LoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taotaoapp/src/main/java/cn/taotao/july/controller/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/taotaoapp/src/main/java/cn/taotao/july/controller/BookPhController.java" />
+        <option value="$PROJECT_DIR$/taotaoapp/src/main/java/cn/taotao/july/controller/HomeController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\respository" />
+        <option name="mavenHome" value="C:/myProgramFiles/Maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="C:\myProgramFiles\Maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1320" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TaoShoping" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotaoapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Taotao">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="Taotao" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.38" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="taotao-app:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_TaoShoping_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51139" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="51140" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="taotao-app:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Taotao" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="55079707-e809-4757-a1fd-f87fa4377fdb" name="Default" comment="" />
+      <created>1494505227800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494505227800</updated>
+      <workItem from="1494505229735" duration="523000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="523000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/taotaoapp/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoapp/src/main/java/cn/taotao/july/controller/BookPhController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoapp/src/main/java/cn/taotao/july/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotaoapp/src/main/java/cn/taotao/july/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

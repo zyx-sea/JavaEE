@@ -13,7 +13,7 @@
     <link href="../css/login2.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-<h1>小学生在线学习系统<sup>1.0</sup></h1>
+<h1>小学生在线出题系统<sup>1.0</sup></h1>
 <div class="login" style="margin-top:50px;">
     <div class="header">
         <div class="switch" id="switch"><a class="switch_btn_focus" id="switch_qlogin" href="javascript:void(0);" tabindex="7">快速登录</a> <a class="switch_btn" id="switch_login" href="javascript:void(0);" tabindex="8">快速注册</a>
@@ -32,7 +32,7 @@
                         <div class="uinArea" id="uinArea">
                             <label class="input-tips" for="u">帐号：</label>
                             <div class="inputOuter" id="uArea">
-                                <input type="text"  name="username"  placeholder="6~16位字符" id="u" class="inputstyle"/>
+                                <input type="text"  name="username"  placeholder="4~16位字符" id="u" class="inputstyle"/>
                             </div>
                         </div>
                         <div class="pwdArea" id="pwdArea">

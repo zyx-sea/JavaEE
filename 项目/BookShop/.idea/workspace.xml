@@ -2,115 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8d3defc-c99b-4adf-b1e7-719ace7e6f53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/77.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/admin_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/admin_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/bbb_01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/bbb_02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/bbb_03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/bbb_04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/bg51.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/bg555.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/sousuo.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/user_01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/images/zzz.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_0_M4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_0_0_M4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0_M2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/action/ExpressionAction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/model/Claim.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/model/Expression.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/service/ExpressionService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/service/impl/ExpressionServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/service/impl/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/css/adminStyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/css/bootstrap-responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/css/bootstrap-responsive.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/1-6-10.esl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/bootstrap-popover.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/bootstrap-tooltip.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/ckform.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/echarts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/jquery1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/jquery2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/jquerypicture.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/showdate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/afficheAdd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/afficheEdit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/afficheQuery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/afficheQuery.html.bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/classAdd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/classQuery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/classUpdate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/deletecomment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/documentAdd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/documentQuery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/error.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/studentQuery.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/studentdetail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/subjectAdd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/subjectQuery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/success.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/teacherQuery.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/teacherdetail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/teachersAdd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/usercommentlist.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/userdocumentQuery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/useredit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/uservideoQuery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/videoQuery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/videosAdd.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/admin/zx.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/show.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Examination/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/team/cn/exam/action/UserAction.class" afterPath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/team/cn/exam/action/UserAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/team/cn/exam/dao/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/team/cn/exam/dao/mapper/UserMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/team/cn/exam/model/User.class" afterPath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/team/cn/exam/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/team/cn/exam/service/UserService.class" afterPath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/team/cn/exam/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/team/cn/exam/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/team/cn/exam/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/classes/team/cn/exam/action/UserAction.class" afterPath="$PROJECT_DIR$/../Examination/target/classes/team/cn/exam/action/UserAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/classes/team/cn/exam/dao/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/../Examination/target/classes/team/cn/exam/dao/mapper/UserMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/classes/team/cn/exam/model/User.class" afterPath="$PROJECT_DIR$/../Examination/target/classes/team/cn/exam/model/User.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/classes/team/cn/exam/service/UserService.class" afterPath="$PROJECT_DIR$/../Examination/target/classes/team/cn/exam/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/classes/team/cn/exam/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/../Examination/target/classes/team/cn/exam/service/impl/UserServiceImpl.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/bread.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/bread.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-dao-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-dao-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-pojo-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-pojo-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaopojo/target/classes/cn/taotao/july/pojo/Content.class" afterPath="$PROJECT_DIR$/../TaoShoping/taotaopojo/target/classes/cn/taotao/july/pojo/Content.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/.idea/artifacts/Examination_war_exploded.xml" afterPath="$PROJECT_DIR$/../Examination/.idea/artifacts/Examination_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/.idea/misc.xml" afterPath="$PROJECT_DIR$/../Examination/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Examination/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/Examination.iml" afterPath="$PROJECT_DIR$/../Examination/Examination.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/pom.xml" afterPath="$PROJECT_DIR$/../Examination/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/action/UserAction.java" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/action/UserAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/dao/mapper/UserMapper.java" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/dao/mapper/UserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/model/User.java" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/model/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/service/UserService.java" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/service/UserService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../Examination/src/main/java/team/cn/exam/service/impl/UserServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/src/main/resources/struts.xml" afterPath="$PROJECT_DIR$/../Examination/src/main/resources/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/src/main/webapp/js/login.js" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/index.jsp" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/login.jsp" afterPath="$PROJECT_DIR$/../Examination/src/main/webapp/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" afterPath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/WEB-INF/classes/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/js/login.js" afterPath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/js/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/jsp/index.jsp" afterPath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/jsp/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/jsp/login.jsp" afterPath="$PROJECT_DIR$/../Examination/target/Examination-1.0-SNAPSHOT/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Examination/target/classes/struts.xml" afterPath="$PROJECT_DIR$/../Examination/target/classes/struts.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TaoShoping/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/java/cn/taotao/july/controller/UserController.java" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/java/cn/taotao/july/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/about.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/drinks.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/drinks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/events.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/faqs.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/faqs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/frozen.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/frozen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/household.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/household.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/kitchen.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/kitchen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/mail.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/pet.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/pet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/privacy.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/privacy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/products.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/services.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/short-codes.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/short-codes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/single.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/vegetables.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/vegetables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/about.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/drinks.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/drinks.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/events.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/faqs.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/faqs.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/frozen.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/frozen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/household.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/household.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/index.jsp" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/kitchen.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/kitchen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/mail.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/pet.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/pet.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/privacy.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/privacy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/products.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/products.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/services.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/services.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/short-codes.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/short-codes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/single.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/single.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/vegetables.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/vegetables.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/index.jsp" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaodao/src/main/java/cn/taotao/july/mapper/ContentMapper.java" afterPath="$PROJECT_DIR$/../TaoShoping/taotaodao/src/main/java/cn/taotao/july/mapper/ContentMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaodao/src/main/java/cn/taotao/july/mapper/PersonMapper.java" afterPath="$PROJECT_DIR$/../TaoShoping/taotaodao/src/main/java/cn/taotao/july/mapper/PersonMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaodao/src/main/java/cn/taotao/july/mapper/TrxMapper.java" afterPath="$PROJECT_DIR$/../TaoShoping/taotaodao/src/main/java/cn/taotao/july/mapper/TrxMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoservice/src/main/java/cn/taotao/july/service/UserService.java" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoservice/src/main/java/cn/taotao/july/service/UserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoservice/src/main/java/cn/taotao/july/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoservice/src/main/java/cn/taotao/july/service/impl/UserServiceImpl.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,7 +89,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
+            <state relative-caret-position="1044">
               <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
               <folding />
             </state>
@@ -157,7 +99,7 @@
       <file leaf-file-name="ShowContentAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/july/shop/action/ShowContentAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="667">
               <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="false" />
@@ -168,11 +110,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="public.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/content/public.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="898">
+            <state relative-caret-position="503">
               <caret line="57" column="51" lean-forward="false" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/july/shop/action/LoginAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="539">
+              <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -285,7 +247,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
-    <option name="height" value="780" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -303,8 +265,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -707,12 +670,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Examination" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -727,6 +689,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\JavaEE\项目\BookShop\src\main\webapp\jsp\content" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.bookshop">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -1256,15 +1230,16 @@
       <workItem from="1492250785368" duration="784000" />
       <workItem from="1492305431483" duration="4290000" />
       <workItem from="1492334260973" duration="2358000" />
+      <workItem from="1494420562638" duration="201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82594000" />
+    <option name="totallyTimeSpent" value="82795000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="780" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1286,11 +1261,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37820512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27142859" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27539682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1381,7 +1356,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,17 +1363,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#666#667#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#783#784#0" expanded="false" />
-            <element signature="e#820#821#0" expanded="false" />
-            <element signature="e#848#849#0" expanded="false" />
-            <element signature="e#1139#1140#0" expanded="false" />
-            <element signature="e#1169#1170#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1414,7 +1377,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="42" column="74" lean-forward="false" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1422,17 +1384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#666#667#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#783#784#0" expanded="false" />
-            <element signature="e#820#821#0" expanded="false" />
-            <element signature="e#848#849#0" expanded="false" />
-            <element signature="e#1139#1140#0" expanded="false" />
-            <element signature="e#1169#1170#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1447,7 +1398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,14 +1503,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3895">
           <caret line="205" column="31" lean-forward="false" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/july/shop/dao/mapper/TrxMapper.java">
@@ -1574,7 +1524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1582,7 +1531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1590,7 +1538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1598,7 +1545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1634,7 +1580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152">
           <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1642,17 +1587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
           <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#666#667#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#745#746#0" expanded="false" />
-            <element signature="e#783#784#0" expanded="false" />
-            <element signature="e#820#821#0" expanded="false" />
-            <element signature="e#848#849#0" expanded="false" />
-            <element signature="e#1139#1140#0" expanded="false" />
-            <element signature="e#1169#1170#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1661,7 +1595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1669,24 +1602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="e#285#286#0" expanded="false" />
-            <element signature="e#316#317#0" expanded="false" />
-            <element signature="e#365#366#0" expanded="false" />
-            <element signature="e#405#406#0" expanded="false" />
-            <element signature="e#435#436#0" expanded="false" />
-            <element signature="e#460#461#0" expanded="false" />
-            <element signature="e#497#498#0" expanded="false" />
-            <element signature="e#525#526#0" expanded="false" />
-            <element signature="e#572#573#0" expanded="false" />
-            <element signature="e#612#613#0" expanded="false" />
-            <element signature="e#646#647#0" expanded="false" />
-            <element signature="e#681#682#0" expanded="false" />
-            <element signature="e#728#729#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#801#802#0" expanded="false" />
-            <element signature="e#836#837#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1694,7 +1609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="43" column="24" lean-forward="false" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1710,7 +1624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1718,7 +1631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1726,13 +1638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#800#801#0" expanded="false" />
-            <element signature="e#852#853#0" expanded="false" />
-            <element signature="e#1380#1381#0" expanded="false" />
-            <element signature="e#1427#1428#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1740,25 +1645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/july/shop/action/LoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1766,7 +1652,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1774,13 +1659,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
+        <state relative-caret-position="1044">
           <caret line="36" column="61" lean-forward="false" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
           <folding />
         </state>
@@ -1788,7 +1672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/july/shop/action/ShowContentAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="667">
           <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="false" />
@@ -1800,8 +1684,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/content/public.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="898">
+        <state relative-caret-position="503">
           <caret line="57" column="51" lean-forward="false" selection-start-line="57" selection-start-column="51" selection-end-line="57" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/july/shop/action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
           <folding />
         </state>
       </provider>

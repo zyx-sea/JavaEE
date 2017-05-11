@@ -27,7 +27,7 @@ public class UserAction implements ModelDriven<User> {
 
 
     /*登录验证*/
-    public String login(){
+      public String login(){
         User u=userService.check(user.getUsername(),user.getPassword());
         ActionContext ac=ActionContext.getContext();
         Map<String,Object>  session=ac.getSession();

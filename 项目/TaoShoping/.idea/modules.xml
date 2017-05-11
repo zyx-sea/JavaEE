@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TaoShoping.iml" filepath="$PROJECT_DIR$/TaoShoping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotaoapp/taotao-app.iml" filepath="$PROJECT_DIR$/taotaoapp/taotao-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotaodao/taotao-dao.iml" filepath="$PROJECT_DIR$/taotaodao/taotao-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotaopojo/taotao-pojo.iml" filepath="$PROJECT_DIR$/taotaopojo/taotao-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/taotaoservice/taotao-service.iml" filepath="$PROJECT_DIR$/taotaoservice/taotao-service.iml" />
+    </modules>
+  </component>
+</project>

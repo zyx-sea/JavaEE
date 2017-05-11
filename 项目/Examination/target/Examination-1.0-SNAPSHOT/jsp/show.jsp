@@ -14,7 +14,7 @@
 <ul>
     <s:iterator value="expressions">
         <li>
-            <s:property value="operand1"/><s:property value="operator"/><s:property value="operand2"/>=
+            <s:property value="operand1"/><s:property value="operator"/><s:property value="operand2"/>=<s:property value="result"/>
         </li>
     </s:iterator>
 </ul>

@@ -11,6 +11,15 @@ public class Expression {
     private Integer  operand1;  //运算元1
     private Integer  operand2;  //运算元2
     private String operator; //运算子
+    private Integer result; //结果
+
+    public Integer getResult() {
+        return result;
+    }
+
+    public void setResult(Integer result) {
+        this.result = result;
+    }
 
     public Integer getOperand1() {
         return operand1;
