@@ -16,7 +16,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/style3.css" rel="stylesheet" type="text/css" media="all" />
 <!-- font-awesome icons -->
 <link href="/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
 <!-- //font-awesome icons -->

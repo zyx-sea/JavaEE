@@ -15,8 +15,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
     function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
-    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/bootstrap2.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/style3.css" rel="stylesheet" type="text/css" media="all" />
     <!-- font-awesome icons -->
     <link href="/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
     <!-- //font-awesome icons -->
@@ -272,7 +272,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <figure>
                                 <div class="snipcart-item block" >
                                     <div class="snipcart-thumb">
-                                        <a href="single.html"><img title=" " alt=" " src="/images/1.png" /></a>
+                                        <a href="single.html"><img title=" " alt=" " src="/images/B1.png" /></a>
                                         <p>fortune sunflower oil</p>
                                         <h4>$7.99 <span>$10.00</span></h4>
                                     </div>
@@ -341,7 +341,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <figure>
                                 <div class="snipcart-item block">
                                     <div class="snipcart-thumb">
-                                        <a href="single.html"><img src="/images/2.png" alt=" " class="img-responsive" /></a>
+                                        <a href="single.html"><img src="/images/B2.png" alt=" " class="img-responsive" /></a>
                                         <p>Pepsi soft drink (2 Ltr)</p>
                                         <h4>$8.00 <span>$10.00</span></h4>
                                     </div>
@@ -377,7 +377,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <figure>
                                 <div class="snipcart-item block">
                                     <div class="snipcart-thumb">
-                                        <a href="single.html"><img src="/images/4.png" alt=" " class="img-responsive" /></a>
+                                        <a href="single.html"><img src="/images/B4.png" alt=" " class="img-responsive" /></a>
                                         <p>dogs food (4 Kg)</p>
                                         <h4>$9.00 <span>$11.00</span></h4>
                                     </div>
@@ -564,7 +564,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- //footer -->
 <!-- Bootstrap Core JavaScript -->
-<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap2.min.js"></script>
 <script>
     $(document).ready(function(){
         $(".dropdown").hover(
