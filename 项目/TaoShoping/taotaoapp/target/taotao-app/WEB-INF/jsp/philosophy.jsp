@@ -15,7 +15,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
-<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/bootstrap2.css" rel="stylesheet" type="text/css" media="all" />
 <link href="/css/style3.css" rel="stylesheet" type="text/css" media="all" />
 <!-- font-awesome icons -->
 <link href="/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
@@ -207,9 +207,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<figure>
 									<div class="snipcart-item block">
 										<div class="snipcart-thumb">
-											<a href="single.html"><img style="height:140px;" src="{{product.icon}}" alt=" " class="img-responsive" /></a>
-											<p>{{product.title}}</p>
-											<h4>$ {{product.price}} .00<span>$50.00</span></h4>
+											<a href="single.html"><img style="height:140px;" src="{{product.bookPic}}" alt=" " class="img-responsive" /></a>
+											<p>{{product.bookName}}</p>
+											<h4>$ {{product.bookPrice}} .00<span>$50.00</span></h4>
 										</div>
 										<div class="snipcart-details">
 											<form action="#" method="post">
@@ -399,7 +399,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 <!-- //footer -->
 <!-- Bootstrap Core JavaScript -->
-<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap2.min.js"></script>
 <script>
 $(document).ready(function(){
     $(".dropdown").hover(

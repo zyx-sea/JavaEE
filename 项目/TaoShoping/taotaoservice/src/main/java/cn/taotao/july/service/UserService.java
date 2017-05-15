@@ -1,6 +1,9 @@
 package cn.taotao.july.service;
 
-import cn.taotao.july.pojo.Person;
+import cn.taotao.july.pojo.Users;
+import com.baomidou.mybatisplus.plugins.Page;
+
+import java.util.List;
 
 /**
  * 用户类<br>
@@ -9,6 +12,17 @@ import cn.taotao.july.pojo.Person;
  * @author zhou
  */
 public interface UserService {
-    Person findUserByName (String userName);
+    /*按名字查询*/
+    public Users findUserByName(String userName);
+    /*得到所有用户信息*/
+    public List<Users> getAllUsers();
+    /*插入新用户*/
+    public Integer insertUser(Users users);
+    /*更新用户信息*/
+    public int update(Users users);
+    /*删除用户信息*/
+    public int delete(int id);
+
+    public Page selectUser(Integer pageNumber, Integer pageSize);
 
 }

@@ -1,6 +1,6 @@
 package cn.taotao.july.service;
 
-import cn.taotao.july.pojo.Content;
+import cn.taotao.july.pojo.Book;
 
 import java.util.List;
 
@@ -11,5 +11,5 @@ import java.util.List;
  * @author zhou
  */
 public interface BookPhService {
-    List<Content>  findBookPh();
+    List<Book>  findBookPh();
 }

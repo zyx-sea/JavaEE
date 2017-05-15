@@ -1,7 +1,7 @@
 package cn.taotao.july.service.impl;
 
-import cn.taotao.july.mapper.ContentMapper;
-import cn.taotao.july.pojo.Content;
+import cn.taotao.july.mapper.BookMapper;
+import cn.taotao.july.pojo.Book;
 import cn.taotao.july.service.BookPhService;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,13 +19,13 @@ import java.util.List;
 public class BookPhServiceImpl implements BookPhService {
 
     @Autowired
-    private ContentMapper contentMapper;
+    private BookMapper bookMapper;
 
     @Override
-    public List<Content> findBookPh() {
+    public List<Book> findBookPh() {
         // 查询类型为哲学的所有书籍记录
-        List<Content> bookList = contentMapper.selectList(
-                new EntityWrapper<Content>().eq("type", "哲学")
+        List<Book> bookList = bookMapper.selectList(
+                new EntityWrapper<Book>().eq("bt_id", 2)
         );
         return bookList;
     }

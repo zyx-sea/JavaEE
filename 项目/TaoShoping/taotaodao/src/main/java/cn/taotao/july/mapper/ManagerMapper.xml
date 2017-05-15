@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.taotao.july.mapper.ManagerMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="cn.taotao.july.pojo.Manager">
+		<id column="mng_username" property="mngUsername" />
+		<result column="mng_password" property="mngPassword" />
+		<result column="mng_name" property="mngName" />
+		<result column="mng_sex" property="mngSex" />
+		<result column="mng_phone" property="mngPhone" />
+	</resultMap>
+
+</mapper>

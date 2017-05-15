@@ -15,7 +15,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
     function hideURLbar(){ window.scrollTo(0,1); } </script>
     <!-- //for-mobile-apps -->
-    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/bootstrap2.css" rel="stylesheet" type="text/css" media="all" />
     <link href="/css/style3.css" rel="stylesheet" type="text/css" media="all" />
     <!-- font-awesome icons -->
     <link href="/css/font-awesome.css" rel="stylesheet" type="text/css" media="all" />
@@ -355,7 +355,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- //footer -->
 <!-- Bootstrap Core JavaScript -->
-<script src="/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap2.min.js"></script>
 <script>
     $(document).ready(function(){
         $(".dropdown").hover(

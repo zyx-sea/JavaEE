@@ -1,6 +1,6 @@
 package cn.taotao.july.controller;
 
-import cn.taotao.july.pojo.Content;
+import cn.taotao.july.pojo.Book;
 import cn.taotao.july.service.BookPhService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,7 +21,7 @@ public class BookPhController {
     private BookPhService bookPhService;
     @RequestMapping("/findBookPh")
     @ResponseBody
-    public List<Content> findBookPh(){
+    public List<Book> findBookPh(){
         return  bookPhService.findBookPh();
     }
     @RequestMapping("/philosophy")

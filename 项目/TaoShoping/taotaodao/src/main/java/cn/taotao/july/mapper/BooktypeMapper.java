@@ -1,6 +1,6 @@
 package cn.taotao.july.mapper;
 
-import cn.taotao.july.pojo.Booktype;
+import cn.taotao.july.pojo.BookType;
 import com.baomidou.mybatisplus.mapper.BaseMapper;
 
 /**
@@ -9,8 +9,8 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  * </p>
  *
  * @author zhou
- * @since 2017-05-07
+ * @since 2017-05-15
  */
-public interface BooktypeMapper extends BaseMapper<Booktype> {
+public interface BookTypeMapper extends BaseMapper<BookType> {
 
 }
