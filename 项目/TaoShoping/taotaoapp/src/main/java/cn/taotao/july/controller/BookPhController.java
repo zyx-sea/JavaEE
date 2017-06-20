@@ -24,8 +24,5 @@ public class BookPhController {
     public List<Book> findBookPh(){
         return  bookPhService.findBookPh();
     }
-    @RequestMapping("/philosophy")
-    public String showBookPh(){
-        return "philosophy";
-    }
+
 }

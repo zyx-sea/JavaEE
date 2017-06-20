@@ -132,7 +132,7 @@
 			</div>
 			<div class="fitem">
 				<label>Addr:</label>
-				<input name="usersAddr" class="easyui-validatebox" validType="email">
+				<input name="usersAddr" class="easyui-validatebox" validType="usersAddr">
 			</div>
 		</form>
 	</div>

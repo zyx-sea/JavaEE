@@ -197,7 +197,7 @@
 <div class="top2">
     <div class="logo"> <img src="../images/admin_logo.png" title="在哪儿" /> </div>
     <div class="title" >
-        <h3>MOOC网站后台管理系统</h3>
+        <h3>TAOTAO网站后台管理系统</h3>
     </div>
     <div class="fr top-link"> <a href="../admin_list.html" target="mainCont" title="DeathGhost"><i
             class="adminIcon"></i><span>管理员：DeathGhost</span></a> </div>
@@ -209,8 +209,7 @@
                 src="../images/bbb_04.jpg"> </div>
         <div class="div2">
             <div class="yhgl"></div>
-            <a class="a" href="javascript:void(0);"
-               onClick="openurl('/usersQuery');">用户管理</a>
+            <a class="a" href="javascript:void(0);" onClick="openurl('${pageContext.request.contextPath}/userQuery');"<%-- href="${pageContext.request.contextPath}/userQuery"--%>>用户管理</a>
         </div>
     </div>
     <div class="div2">
