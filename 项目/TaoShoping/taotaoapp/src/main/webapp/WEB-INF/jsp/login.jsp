@@ -39,7 +39,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!-- start-smoth-scrolling -->
 </head>
 
-<body>
+<body id="app">
 <jsp:include page="/WEB-INF/jsp/head.jsp"/>
 <!-- products-breadcrumb -->
 <div class="products-breadcrumb">
@@ -64,19 +64,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="form">
                         <h2>登录账号</h2>
-                        <form action="${pageContext.request.contextPath}/index" method="post">
-                            <input type="text" name="Username" placeholder="Username" required=" ">
-                            <input type="password" name="Password" placeholder="Password" required=" ">
-                            <input type="submit" value="登录">
+                        <form @submit.prevent="submit">
+                            <input type="text" v-model="username" placeholder="Username" required=" ">
+                            <input type="password" v-model="password" placeholder="Password" required=" ">
+                            <button v-on:click="submit">登录</button>
                         </form>
                     </div>
                     <div class="form">
                         <h2>注册账号</h2>
-                        <form action="#" method="post">
-                            <input type="text" name="Username" placeholder="Username" required=" ">
-                            <input type="password" name="Password" placeholder="Password" required=" ">
-                            <input type="address" name="Address" placeholder="Address" required=" ">
-                            <input type="text" name="Phone" placeholder="Phone Number" required=" ">
+                        <form action="/register" method="post">
+                            <input type="text" name="usersUsername" placeholder="Username" required=" ">
+                            <input type="password" name="usersPassword" placeholder="Password" required=" ">
+                            <input type="text" name="usersAddr" placeholder="Address" required=" ">
+                            <input type="text" name="usersPhone" placeholder="Phone Number" required=" ">
                             <input type="submit" value="注册">
                         </form>
                     </div>
@@ -133,27 +133,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
 </div>
 <!-- //newsletter-top-serv-btm -->
-<%--<!-- newsletter -->
-<div class="newsletter">
-    <div class="container">
-        <div class="w3agile_newsletter_left">
-            <h3>sign up for our newsletter</h3>
-        </div>
-        <div class="w3agile_newsletter_right">
-            <form action="#" method="post">
-                <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-                <input type="submit" value="subscribe now">
-            </form>
-        </div>
-        <div class="clearfix"> </div>
-    </div>
-</div>
-<!-- //newsletter -->--%>
+
 <!-- footer -->
 <jsp:include page="/WEB-INF/jsp/footer.jsp"/>
 <!-- //footer -->
 <!-- Bootstrap Core JavaScript -->
 <script src="/js/bootstrap2.min.js"></script>
+<script src="/js/vue1.js"></script>
+<script src="/js/reqwest.js"></script>
 <script>
     $(document).ready(function(){
         $(".dropdown").hover(
@@ -194,7 +181,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     if (~window.location.search.indexOf('reset=true')) {
         paypal.minicart.reset();
-    }
+    };
+
+    var vue = new Vue({
+        'el':'#app',
+        data:{
+           username:null,
+            password:null
+        },
+        methods:{
+            submit:function () {
+                var self = this;
+                $.post('/denglu',{'usersUsername':self.username,'usersPassword':self.password},function (result) {
+                    if(result.msg){
+                        location.href="/index";
+                    }else{
+                        alert("用户名或者密码错误");
+                    }
+                })
+            }
+        }
+    })
 </script>
 </body>
 </html>

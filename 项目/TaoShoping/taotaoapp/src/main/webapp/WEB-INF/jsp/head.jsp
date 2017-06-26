@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   User: zhou
   Date: 2017/6/17
@@ -64,18 +65,34 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     </div>
     <div class="w3l_header_right">
         <ul>
+
             <li class="dropdown profile_details_drop">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true">用户</i><span class="caret"></span></a>
+                <c:if test="${empty user}">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa fa-user" aria-hidden="true">用户</i>
+                    <span class="caret"></span></a>
                 <div class="mega-dropdown-menu">
                     <div class="w3ls_vegetables">
                         <ul class="dropdown-menu drp-mnu">
-                            <li><a href="${pageContext.request.contextPath}/login">登录</a></li>
-                            <li><a href="${pageContext.request.contextPath}/login">注册</a></li>
+                            <li><a href="/login">登录</a></li>
+                            <li><a href="/login">注册</a></li>
                         </ul>
                     </div>
-                </div>
+                </div></c:if>
+                <c:if test="${!empty user}"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="fa fa-user" aria-hidden="true">您好，${user.usersUsername}</i>
+                    <span class="caret"></span></a>
+                    <div class="mega-dropdown-menu">
+                        <div class="w3ls_vegetables">
+                            <ul class="dropdown-menu drp-mnu">
+                                <li><a href="/loginout">退出</a></li>
+                            </ul>
+                        </div>
+                    </div></c:if>
             </li>
         </ul>
+
+
     </div>
     <%--		<div class="w3l_header_right1">
                 <h2><a href="mail.html">Contact Us</a></h2>
@@ -153,10 +170,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         $().UItoTop({ easingType: 'easeOutQuart' });
 
     });
+
+</script>
+<script >
+    var vum = new Vue({
+        el:'#app',
+        data:{
+            user:{}
+        },
+        methods:{
+            getData:function () {
+                var self = this;
+                $.post('/denglu',null, function(result) {
+                    /*optional stuff to do after success */
+                    if(session.getAttribute()!=null){
+                        self.user = session.getAttribute();
+                    }
+                });
+            }
+        },
+        ready:function () {
+            this.getData();
+        }
+    })
 </script>
 <!-- //here ends scrolling icon -->
 <script src="/js/minicart.min.js"></script>
-<script>
+<%--<script>
     // Mini Cart
     paypal.minicart.render({
         action: '#'
@@ -165,6 +205,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     if (~window.location.search.indexOf('reset=true')) {
         paypal.minicart.reset();
     }
-</script>
+</script>--%>
 </body>
 </html>

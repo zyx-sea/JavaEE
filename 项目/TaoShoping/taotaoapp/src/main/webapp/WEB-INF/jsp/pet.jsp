@@ -133,7 +133,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //products-breadcrumb -->
 <!-- banner -->
 <div class="banner">
-    <div class="w3l_banner_nav_left">
+    <jsp:include page="/WEB-INF/jsp/banner.jsp"/>
+    <%--<div class="w3l_banner_nav_left">
         <nav class="navbar nav_bottom">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header nav_2">
@@ -189,7 +190,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
-    </div>
+    </div>--%>
     <div class="w3l_banner_nav_right">
         <div class="w3l_banner_nav_right_banner8">
             <%--<h3>Best Deals For New Products<span class="blink_me"></span></h3>--%>

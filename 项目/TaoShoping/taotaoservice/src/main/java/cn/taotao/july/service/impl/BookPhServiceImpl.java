@@ -22,11 +22,16 @@ public class BookPhServiceImpl implements BookPhService {
     private BookMapper bookMapper;
 
     @Override
-    public List<Book> findBookPh() {
+    public List<Book> findBookPh(int btid) {
         // 查询类型为哲学的所有书籍记录
         List<Book> bookList = bookMapper.selectList(
-                new EntityWrapper<Book>().eq("bt_id", 2)
+                new EntityWrapper<Book>().eq("bt_id", btid)
         );
         return bookList;
+    }
+
+    @Override
+    public Book findBookByno(String bookno) {
+        return  bookMapper.selectById(bookno);
     }
 }

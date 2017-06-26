@@ -11,5 +11,8 @@ import java.util.List;
  * @author zhou
  */
 public interface BookPhService {
-    List<Book>  findBookPh();
+    /*按照类型查找书*/
+    List<Book>  findBookPh(int btid);
+    /*按照书的编号查找*/
+    Book findBookByno(String bookno);
 }

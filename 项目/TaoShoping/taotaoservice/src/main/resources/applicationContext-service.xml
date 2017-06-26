@@ -17,7 +17,8 @@
 	   http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 
     <!-- 配置包扫描器 -->
-    <context:component-scan base-package="cn.taotao.july.service"></context:component-scan>
+    <context:component-scan base-package="cn.taotao.july.service">
+    </context:component-scan>
     <!--dao层的依赖配置-->
     <import resource="applicationContext-dao.xml"/>
 </beans>

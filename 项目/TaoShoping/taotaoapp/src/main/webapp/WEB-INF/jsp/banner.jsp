@@ -90,66 +90,42 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
                             <div class="w3ls_vegetables">
                                 <ul>
-                                    <li><a href="frozen.html">成功</a></li>
-                                    <li><a href="frozen.html">励志</a></li>
+                                    <li><a href="drinks.html">成功</a></li>
+                                    <li><a href="drinks.html">励志</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a href="/philosophy">科技</a></li>
+                    <li><a v-on:click="findbooklist(2)">科技</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
     </div>
-    <%--<div class="w3l_banner_nav_right">
-        <section class="slider">
-            <div class="flexslider">
-                <ul class="slides">
-                    <li>
-                        <div class="w3l_banner_nav_right_banner">
-                            <h3>Make your <span>food</span> with Spicy.</h3>
-                            <div class="more">
-                                <a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="w3l_banner_nav_right_banner1">
-                            <h3>Make your <span>food</span> with Spicy.</h3>
-                            <div class="more">
-                                <a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="w3l_banner_nav_right_banner2">
-                            <h3>upto <i>50%</i> off.</h3>
-                            <div class="more">
-                                <a href="products.html" class="button--saqui button--round-l button--text-thick" data-text="Shop now">Shop now</a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- flexSlider -->
-        <link rel="stylesheet" href="/css/flexslider.css" type="text/css" media="screen" property="" />
-        <script defer src="/js/jquery.flexslider.js"></script>
-        <script type="text/javascript">
-            $(window).load(function(){
-                $('.flexslider').flexslider({
-                    animation: "slide",
-                    start: function(slider){
-                        $('body').removeClass('loading');
-                    }
-                });
-            });
-        </script>
-        <!-- //flexSlider -->
-    </div>
-    <div class="clearfix"></div>--%>
 </div>
 <!-- banner -->
-
+<script>
+    var vum = new Vue({
+        el: '#app',
+        data: {
+            btid:""
+        },
+        methods: {
+            findbooklist:function (btid) {
+                var self = this;
+                self.btid=btid;
+                $.post('/findBookPh',{"btId":self.btid},function (result) {
+                    if(result.msg){
+                        location.href="/philosophy";
+                    }else{
+                        alert("没有此类型的书籍");
+                    }
+                })
+            }
+        },
+        ready: function () {
+            this.getData();
+        }
+    })
+</script>
 </body>
 </html>
