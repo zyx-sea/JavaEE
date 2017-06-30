@@ -15,4 +15,6 @@ public interface BookPhService {
     List<Book>  findBookPh(int btid);
     /*按照书的编号查找*/
     Book findBookByno(String bookno);
+    /*显示所有书籍*/
+    List<Book> findAllBook();
 }

@@ -30,13 +30,20 @@ public class BookPhController {
         Map<String,Object> map = new HashMap<>();
         List<Book> booklist=bookPhService.findBookPh(book.getBtId());
         if (booklist!=null){
-            System.out.println(booklist.get(1).getBookAuthor());
-            session.setAttribute("productList",booklist);
+            session.setAttribute("productlist",booklist);
             map.put("msg",true);
         }else {
             map.put("msg",false);
         }
         return map;
+    }
+    /*判断是否有此类书籍*/
+    @RequestMapping("/adjustpro")
+    @ResponseBody
+    public Map<String,Object>  adjustpro(HttpSession session){
+        Map<String,Object> booklist=new HashMap<>();
+        booklist.put("booklist",session.getAttribute("productlist"));
+        return booklist;
     }
     /*根据书号查看书籍详情*/
     @RequestMapping("/findBookByno")
@@ -53,5 +60,18 @@ public class BookPhController {
         }
         return  map;
     }
-
+    /*判断是否有此书*/
+    @RequestMapping("/adjustbook")
+    @ResponseBody
+    public Map<String,Object>  adjustbook(HttpSession session){
+        Map<String,Object> book=new HashMap<>();
+        book.put("book",session.getAttribute("book"));
+        return book;
+    }
+    /*查找所有书籍*/
+    @RequestMapping("/findallbook")
+    @ResponseBody
+    public  List<Book> findAllbook(){
+        return bookPhService.findAllBook();
+    }
 }

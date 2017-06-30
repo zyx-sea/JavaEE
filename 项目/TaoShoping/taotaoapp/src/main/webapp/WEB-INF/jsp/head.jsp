@@ -46,7 +46,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- header -->
 <div class="agileits_header">
     <div class="w3l_offers">
-        <a href="products.html">今日特惠</a>
+        <a href="/index">今日特惠</a>
     </div>
     <div class="w3l_search">
         <form action="#" method="post">
@@ -80,7 +80,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                 </div></c:if>
                 <c:if test="${!empty user}"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                <i class="fa fa-user" aria-hidden="true">您好，${user.usersUsername}</i>
+                <i class="fa fa-user" aria-hidden="true">您好，{{user.usersUsername}}</i>
                     <span class="caret"></span></a>
                     <div class="mega-dropdown-menu">
                         <div class="w3ls_vegetables">
@@ -122,10 +122,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="w3ls_logo_products_left1">
             <ul class="special_items">
-                <li><a href="events.html">活动</a><i>/</i></li>
-                <li><a href="products.html">最优惠</a><i>/</i></li>
-                <li><a href="about.html">关于我们</a><i>/</i></li>
-                <li><a href="services.html">服务</a></li>
+                <li><a href="/events">活动</a><i>/</i></li>
+                <li><a href="/index">最优惠</a><i>/</i></li>
+                <li><a href="/about">关于我们</a><i>/</i></li>
+                <li><a href="/services">服务</a></li>
             </ul>
         </div>
         <div class="w3ls_logo_products_left1">
@@ -181,11 +181,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         methods:{
             getData:function () {
                 var self = this;
-                $.post('/denglu',null, function(result) {
-                    /*optional stuff to do after success */
-                    if(session.getAttribute()!=null){
-                        self.user = session.getAttribute();
-                    }
+                $.post('/adjustlogin',null, function(result) {
+                        self.user =result.user;
+                    console.log(result);
                 });
             }
         },

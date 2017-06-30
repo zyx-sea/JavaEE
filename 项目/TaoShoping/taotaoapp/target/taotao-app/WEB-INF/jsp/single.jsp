@@ -60,9 +60,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <jsp:include page="/WEB-INF/jsp/banner.jsp"/>
     <div class="w3l_banner_nav_right">
         <div class="agileinfo_single">
-            <h5> ${book.bookName} </h5>
+            <h5> {{book.bookName}} </h5>
             <div class="col-md-4 agileinfo_single_left">
-                <img id="example" src=" ${book.bookPic} " alt=" " class="img-responsive" />
+                <img  style="width: 180px; height:245px;" id="example" src=" {{book.bookPic}} " alt=" " class="img-responsive" />
             </div>
             <div class="col-md-8 agileinfo_single_right">
                 <div class="rating1">
@@ -81,12 +81,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="w3agile_description">
                     <h4>内容概要 : </h4>
-                    <p> ${book.bookDes}</p>
+                    <p> {{book.bookDes}}</p>
                 </div>
                 <div class="snipcart-item block">
                     <div class="snipcart-thumb agileinfo_single_right_snipcart">
-                        <h4>$
-                            ${book.bookPrice}<span>$50.00</span></h4>
+                        <h4>￥
+                            {{book.bookPrice}}<%--<span>￥50.00</span>--%></h4>
                     </div>
                     <div class="snipcart-details agileinfo_single_right_details">
                         <form action="#" method="post">
@@ -94,13 +94,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <input type="hidden" name="cmd" value="_cart" />
                                 <input type="hidden" name="add" value="1" />
                                 <input type="hidden" name="business" value=" " />
-                                <input type="hidden" name="item_name" value="${book.bookName}" />
-                                <input type="hidden" name="amount" value="${book.bookPrice}" />
+                                <input type="hidden" name="item_name" value="{{book.bookName}}" />
+                                <input type="hidden" name="amount" value="{{book.bookPrice}}" />
                                 <input type="hidden" name="discount_amount" value="0.00" />
                                 <input type="hidden" name="currency_code" value="" />
                                 <input type="hidden" name="return" value=" " />
                                 <input type="hidden" name="cancel_return" value=" " />
-                                <input type="submit" name="submit" value="Add to cart" class="button" />
+                                <input type="submit" name="submit" value="加入购物车" class="button" />
                             </fieldset>
                         </form>
                     </div>
@@ -169,8 +169,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         methods:{
             getData:function () {
                 var self = this;
-                $.post('/findBookByno',null, function(result) {
-                    self.book= session.getAttribute();
+                $.post('/adjustbook',null, function(result) {
+                    self.book= result.book;
                 });
             }
         },

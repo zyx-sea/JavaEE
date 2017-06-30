@@ -26,7 +26,7 @@ public class OrdersItem extends Model<OrdersItem> {
 	private String ordersNo;
 	@TableField("book_no")
 	private String bookNo;
-	@TableField("oi_bcount")
+	@TableField("oi_bcount")/*购买数量*/
 	private Integer oiBcount;
 
 

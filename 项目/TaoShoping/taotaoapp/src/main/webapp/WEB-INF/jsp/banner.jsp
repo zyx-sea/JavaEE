@@ -6,7 +6,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>头部 </title>
+    <title>侧边框 </title>
     <!-- for-mobile-apps -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -58,45 +58,45 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
                 <ul class="nav navbar-nav nav_1">
-                    <li><a href="/pet">教育</a></li>
-                    <li><a href="household.html">小说</a></li>
+                    <li><a v-on:click="findbooklist(1)">教育</a></li>
+                    <li><a v-on:click="findbooklist(2)">小说</a></li>
                     <li class="dropdown mega-dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">文学/艺术<span class="caret"></span></a>
                         <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
                             <div class="w3ls_vegetables">
                                 <ul>
-                                    <li><a href="vegetables.html">文学</a></li>
-                                    <li><a href="vegetables.html">艺术</a></li>
+                                    <li><a v-on:click="findbooklist(3)">文学</a></li>
+                                    <li><a v-on:click="findbooklist(10)">艺术</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a href="kitchen.html">童书</a></li>
-                    <li><a href="short-codes.html">生活</a></li>
+                    <li><a v-on:click="findbooklist(4)">童书</a></li>
+                    <li><a v-on:click="findbooklist(5)">生活</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">人文社科<span class="caret"></span></a>
                         <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
                             <div class="w3ls_vegetables">
                                 <ul>
-                                    <li><a href="drinks.html">人文</a></li>
-                                    <li><a href="drinks.html">社科</a></li>
+                                    <li><a v-on:click="findbooklist(6)">人文</a></li>
+                                    <li><a v-on:click="findbooklist(11)">社科</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a href="pet.html">经管</a></li>
+                    <li><a v-on:click="findbooklist(7)">经管</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">成功/励志<span class="caret"></span></a>
                         <div class="dropdown-menu mega-dropdown-menu w3ls_vegetables_menu">
                             <div class="w3ls_vegetables">
                                 <ul>
-                                    <li><a href="drinks.html">成功</a></li>
-                                    <li><a href="drinks.html">励志</a></li>
+                                    <li><a v-on:click="findbooklist(8)">成功</a></li>
+                                    <li><a v-on:click="findbooklist(12)">励志</a></li>
                                 </ul>
                             </div>
                         </div>
                     </li>
-                    <li><a v-on:click="findbooklist(2)">科技</a></li>
+                    <li><a v-on:click="findbooklist(9)">科技</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </nav>
@@ -123,7 +123,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             }
         },
         ready: function () {
-            this.getData();
+            this.findbooklist();
         }
     })
 </script>

@@ -610,6 +610,10 @@ ul.dropdown-menu.drp-mnu li a i {
 	opacity: 1 !important;
 	outline:none;
 }
+element.style {
+    display: block;
+    margin: -34px -99px;
+}
 #PPMiniCart .minicart-submit {
     display: none;
 }
@@ -1003,7 +1007,7 @@ ul.dropdown-menu.drp-mnu li a i {
 	padding-top: 7em;
 }
 .w3l_banner_nav_right_banner3{
-	background:url(../images/12.jpg) no-repeat 0px 0px;
+	background:url(../images/26.jpg) no-repeat 0px 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;

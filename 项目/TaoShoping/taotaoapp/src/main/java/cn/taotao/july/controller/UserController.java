@@ -40,13 +40,20 @@ public class UserController {
         Users u=userService.findUserByName(user.getUsersUsername());
         Map<String,Object> map = new HashMap<>();
         if(u!=null&&u.getUsersPassword().equals(user.getUsersPassword())){
-            System.out.println(user.getUsersUsername());
             session.setAttribute("user",user);
             map.put("msg",true);
+            map.put(u.getUsersName(),u);
         }else{
             map.put("msg",false);
         }
         return  map;
+    }
+    @RequestMapping("/adjustlogin")
+    @ResponseBody
+    public Map<String,Object> adjustlogin(HttpSession session){
+        Map<String,Object> userinfo = new HashMap<>();
+        userinfo.put("user",session.getAttribute("user"));
+        return  userinfo;
     }
     /*注册*/
     @RequestMapping("/register")

@@ -23,15 +23,22 @@ public class BookPhServiceImpl implements BookPhService {
 
     @Override
     public List<Book> findBookPh(int btid) {
-        // 查询类型为哲学的所有书籍记录
+        // 查询不同类型的所有书籍记录
         List<Book> bookList = bookMapper.selectList(
                 new EntityWrapper<Book>().eq("bt_id", btid)
         );
         return bookList;
     }
 
+    /*按照书号查找书籍*/
     @Override
     public Book findBookByno(String bookno) {
         return  bookMapper.selectById(bookno);
+    }
+
+    /*查找所有书籍*/
+    @Override
+    public List<Book> findAllBook() {
+        return bookMapper.selectList(new EntityWrapper<Book>());
     }
 }
