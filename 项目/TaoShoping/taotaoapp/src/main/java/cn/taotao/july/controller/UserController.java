@@ -26,8 +26,10 @@ import java.util.Map;
 public class UserController {
     @Autowired
     private UserService userService;
+
+
     /*登出*/
-    @RequestMapping("loginout")
+    @RequestMapping("/loginout")
     public String  loginout(HttpServletRequest request){
         request.getSession().removeAttribute("user");
         return "/login";
@@ -37,17 +39,17 @@ public class UserController {
     @RequestMapping("/denglu")
     @ResponseBody
     public Map<String,Object> denglu(@ModelAttribute("user") Users user, HttpSession session){
-        Users u=userService.findUserByName(user.getUsersUsername());
+        Users u=userService.findUserByName(user);
         Map<String,Object> map = new HashMap<>();
         if(u!=null&&u.getUsersPassword().equals(user.getUsersPassword())){
             session.setAttribute("user",user);
             map.put("msg",true);
-            map.put(u.getUsersName(),u);
         }else{
             map.put("msg",false);
         }
         return  map;
     }
+    /*判断是否已登录*/
     @RequestMapping("/adjustlogin")
     @ResponseBody
     public Map<String,Object> adjustlogin(HttpSession session){
@@ -70,59 +72,66 @@ public class UserController {
             return  "login";
         }
     }
-    /*后台管理员登录*/
-    @RequestMapping("/admin")
-    public String adminlogin(){
-        return "admin/index";
-    }
-    /*用户管理*/
-    @RequestMapping("/userQuery")
-    public String userQuery(){
-        return "admin/userQuery";
-    }
+
     /*按照姓名查找用户*/
-    @RequestMapping("/user/{username}")
-    @ResponseBody
-    public Users findUserByUsername(@PathVariable  String username){
-        return userService.findUserByName(username);
+    @RequestMapping("/findUserByname")
+    public String findUserByUsername(Users user,HttpSession session){
+        if (userService.findUserByName(user)!=null){
+            session.setAttribute("users",userService.findUserByName(user));
+            return "usersCheck";
+        }else{
+            return "usersQuery";
+        }
     }
+    /*显示找到的结果*/
+    @RequestMapping("/showusers")
+    @ResponseBody
+    public Map<String,Object> showusers(HttpSession session){
+        Map<String,Object> userinfo = new HashMap<>();
+        userinfo.put("users",session.getAttribute("users"));
+        return  userinfo;
+    }
+
     /*显示所有用户信息*/
     @RequestMapping("/getall")
     @ResponseBody
     public List<Users> getAll(){
         return userService.getAllUsers();
     }
+
     /*插入用户*/
-    @RequestMapping("/insert")
-    @ResponseBody
-    public Map<String,Boolean> insert(Users users){
+    @RequestMapping("/insertuser")
+    public String  insert(Users users){
         int userTotal=0;
-        Map<String,Boolean> map=new HashMap<String, Boolean>() ;
-        if (users.getUsersName()==null){
+        if (users.getUsersName()!=null){
             userTotal=userService.insertUser(users);
         }else{
             userTotal=userService.update(users);
         }
         if (userTotal>0){
-            map.put("success",true);
+            return "usersQuery";
         }else {
-            map.put("success",false);
+            return  "usersAdd";
+        }
+    }
+    /*删除用户*/
+    @RequestMapping("/deleteuser")
+    @ResponseBody
+    public Map<String,Boolean>  delete(@ModelAttribute("user")Users users){
+        System.out.println(users.getUsersName());
+        Map<String,Boolean> map=new HashMap<String, Boolean>();
+        if(userService.delete(users)>0){
+            map.put("msg",true);
+        }else {
+            map.put("msg",false);
         }
         return map;
     }
-    /*删除用户*/
-    @RequestMapping("/delete")
-    @ResponseBody
-    public Map<String,Boolean>  delete(@RequestParam(value = "id") String id){
-        int userTotal=0;
-        Map<String,Boolean> map=new HashMap<String, Boolean>();
-        userService.delete(Integer.parseInt(id));
-        map.put("success",true);
-        return map;
-    }
+
     /*分页*/
     public Page selectPage(@PathVariable Integer page, @PathVariable Integer rows){
         return userService.selectUser(page, rows);
     }
+
 
 }

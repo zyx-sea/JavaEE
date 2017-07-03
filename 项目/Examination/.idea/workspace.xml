@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec84d8fa-9c77-48d9-b454-9df3cebc9d40" name="Default" comment="" />
+    <list default="true" id="ec84d8fa-9c77-48d9-b454-9df3cebc9d40" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/java/cn/taotao/july/controller/ManagerController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoservice/src/main/java/cn/taotao/july/service/ManagerService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoservice/src/main/java/cn/taotao/july/service/impl/ManagerServiceImpl.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/admin/userQuery.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/admin/login.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/classes/cn/taotao/july/controller/UserController.class" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/classes/cn/taotao/july/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/classes/cn/taotao/july/controller/UserController.class" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/classes/cn/taotao/july/controller/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-service-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/lib/taotao-service-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Examination.iml" afterPath="$PROJECT_DIR$/Examination.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TaoShoping/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/java/cn/taotao/july/controller/UserController.java" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/java/cn/taotao/july/controller/UserController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/admin/index.jsp" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/admin/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/admin/index.jsp" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/admin/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/admin/userQuery.jsp" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/target/taotao-app/WEB-INF/jsp/admin/userQuery.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/admin/login.html" afterPath="$PROJECT_DIR$/../TaoShoping/taotaoapp/src/main/webapp/WEB-INF/jsp/admin/login.jsp" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,16 +93,62 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="522">
               <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1500#1501#0" expanded="false" />
+                <element signature="e#1527#1528#0" expanded="false" />
+                <element signature="e#1564#1565#0" expanded="false" />
+                <element signature="e#1596#1597#0" expanded="false" />
+                <element signature="e#1624#1625#0" expanded="false" />
+                <element signature="e#1651#1652#0" expanded="false" />
+                <element signature="e#1688#1689#0" expanded="false" />
+                <element signature="e#1720#1721#0" expanded="false" />
+                <element signature="e#1758#1759#0" expanded="false" />
+                <element signature="e#1790#1791#0" expanded="false" />
+                <element signature="e#1842#1843#0" expanded="false" />
+                <element signature="e#1884#1885#0" expanded="false" />
+                <element signature="e#1914#1915#0" expanded="false" />
+                <element signature="e#1943#1944#0" expanded="false" />
+                <element signature="e#1984#1985#0" expanded="false" />
+                <element signature="e#2020#2021#0" expanded="false" />
+                <element signature="e#2053#2054#0" expanded="false" />
+                <element signature="e#2082#2083#0" expanded="false" />
+                <element signature="e#2126#2127#0" expanded="false" />
+                <element signature="e#2162#2163#0" expanded="false" />
+                <element signature="e#2210#2211#0" expanded="false" />
+                <element signature="e#2244#2245#0" expanded="false" />
+                <element signature="e#2308#2309#0" expanded="false" />
+                <element signature="e#2354#2355#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExpressionServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/team/cn/exam/service/impl/ExpressionServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="498">
+              <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExpressionServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/team/cn/exam/service/impl/ExpressionServiceImpl.java">
+      <file leaf-file-name="teacherQuery.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin/teacherQuery.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+            <state relative-caret-position="539">
+              <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="studentQuery.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin/studentQuery.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -228,7 +290,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1320" />
+    <option name="width" value="1319" />
     <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -249,7 +311,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -307,6 +371,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Examination" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -484,13 +578,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../测试/MyBatis_01/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -521,6 +613,18 @@
       <recent name="F:\JavaEE\项目\Examination\src\main\webapp\jsp" />
       <recent name="F:\JavaEE\项目\Examination\src\main\webapp\jsp\admin" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.tom">
     <configuration default="false" name="ExpressionServiceImpl.generat(int, int, java.lang.String[], int, java.lang.String) (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -1302,6 +1406,7 @@
       <workItem from="1493173282285" duration="3119000" />
       <workItem from="1493178246613" duration="309000" />
       <workItem from="1493191776704" duration="44000" />
+      <workItem from="1498911426152" duration="381000" />
     </task>
     <servers />
   </component>
@@ -1338,7 +1443,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159716000" />
+    <option name="totallyTimeSpent" value="160097000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1350,8 +1455,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1319" height="784" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1377,7 +1481,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27879268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1602,20 +1706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin/studentQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin/teacherQuery.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin/teachersAdd.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -1646,6 +1736,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/index2.jsp" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="184" selection-end-column="17" />
@@ -1653,9 +1746,6 @@
             <element signature="n#dependencies#0;n#project#0;n#!!top" expanded="false" />
           </folding>
         </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/struts.xml">
@@ -1731,7 +1821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="15" column="87" lean-forward="false" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="101" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1747,7 +1836,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1500#1501#0" expanded="false" />
+            <element signature="e#1527#1528#0" expanded="false" />
+            <element signature="e#1564#1565#0" expanded="false" />
+            <element signature="e#1596#1597#0" expanded="false" />
+            <element signature="e#1624#1625#0" expanded="false" />
+            <element signature="e#1651#1652#0" expanded="false" />
+            <element signature="e#1688#1689#0" expanded="false" />
+            <element signature="e#1720#1721#0" expanded="false" />
+            <element signature="e#1758#1759#0" expanded="false" />
+            <element signature="e#1790#1791#0" expanded="false" />
+            <element signature="e#1842#1843#0" expanded="false" />
+            <element signature="e#1884#1885#0" expanded="false" />
+            <element signature="e#1914#1915#0" expanded="false" />
+            <element signature="e#1943#1944#0" expanded="false" />
+            <element signature="e#1984#1985#0" expanded="false" />
+            <element signature="e#2020#2021#0" expanded="false" />
+            <element signature="e#2053#2054#0" expanded="false" />
+            <element signature="e#2082#2083#0" expanded="false" />
+            <element signature="e#2126#2127#0" expanded="false" />
+            <element signature="e#2162#2163#0" expanded="false" />
+            <element signature="e#2210#2211#0" expanded="false" />
+            <element signature="e#2244#2245#0" expanded="false" />
+            <element signature="e#2308#2309#0" expanded="false" />
+            <element signature="e#2354#2355#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1755,6 +1870,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="62" column="9" lean-forward="false" selection-start-line="62" selection-start-column="9" selection-end-line="62" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin/teacherQuery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/admin/studentQuery.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
           <folding />
         </state>
       </provider>

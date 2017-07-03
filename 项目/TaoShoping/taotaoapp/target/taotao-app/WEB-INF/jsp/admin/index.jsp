@@ -7,10 +7,10 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>TAOTAO商城系统后台</title>
+    <title>网上书城商城系统后台</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="/css/adminStyle.css" rel="stylesheet" type="text/css" />
-    <title>TAOTAO商城系统</title>
+    <title>网上书城商城系统</title>
     <script type="text/javascript" src="/js/jquery1.js"></script>
     <script type="text/javascript">
         $(document).ready(
@@ -30,8 +30,8 @@
         body {
             margin: 0;
             font-family: 微软雅黑;
-            background-image: url(/images/.jpg);
-            background-repeat: no-repea;
+            background-image: url(/images/admin_bg.png);
+            background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
             background-color: #DDDDDD
@@ -197,39 +197,32 @@
 <div class="top2">
     <div class="logo"> <img src="../images/admin_logo.png" title="在哪儿" /> </div>
     <div class="title" >
-        <h3>TAOTAO网站后台管理系统</h3>
+        <h3>网上书城网站后台管理系统</h3>
     </div>
     <div class="fr top-link"> <a href="../admin_list.html" target="mainCont" title="DeathGhost"><i
-            class="adminIcon"></i><span>管理员：DeathGhost</span></a> </div>
+            class="adminIcon"></i><span>管理员：${manager.mngUsername}</span></a> </div>
 </div>
 <div class="left">
     <div class="div1">
         <div class="left_top"> <img src="../images/bbb_01.jpg"><img src="../images/bbb_02.jpg"
                                                                     id="2"><img src="../images/bbb_03.jpg"><img
                 src="../images/bbb_04.jpg"> </div>
-        <div class="div2">
-            <div class="yhgl"></div>
-            <a class="a" href="javascript:void(0);" onClick="openurl('${pageContext.request.contextPath}/userQuery');"<%-- href="${pageContext.request.contextPath}/userQuery"--%>>用户管理</a>
-        </div>
     </div>
-    <div class="div2">
-        <div class="spgl"></div>
-        视频管理 </div>
-    <div class="div3">
-        <li><a class="a" href="javascript:void(0);"
-               onClick="openurl('videoQuery.html');">查看所有视频</a></li>
-        <li><a class="a" href="javascript:void(0);"
-               onClick="openurl('uservideoQuery.html');">用户视频列表</a></li>
+    <div class="div2" >
+        <div class="yhgl"></div>
+        用户管理
     </div>
-    <div class="div2">
-        <div class="spgl"></div>
-        文档管理 </div>
     <div class="div3">
         <ul>
-            <li><a class="a" href="javascript:void(0);"
-                   onClick="openurl('documentQuery.html');">查看所有文档</a></li>
-            <li><a class="a" href="javascript:void(0);"
-                   onClick="openurl('userdocumentQuery.html');">用户文档列表</a></li>
+            <li><a class="a" href="javascript:void(0);" onClick="openurl('/usersQuery');">用户信息</a></li>
+        </ul>
+    </div>
+    <div class="div2">
+        <div class="spgl"></div>
+        书籍管理 </div>
+    <div class="div3">
+        <ul>
+            <li><a class="a" href="javascript:void(0);" onClick="openurl('/bookQuery');">书籍信息</a></li>
         </ul>
     </div>
     <div class="div2">
@@ -263,7 +256,7 @@
                    onClick="openurl('afficheAdd.html');">添加公告</a></li>
         </ul>
     </div>
-    <a class="a1" href="login.html">
+    <a class="a1" href="login.jsp">
         <div class="div2">
             <div class="tcht"></div>
             退出后台 </div>

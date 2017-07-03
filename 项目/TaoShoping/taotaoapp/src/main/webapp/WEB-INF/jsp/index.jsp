@@ -177,7 +177,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </script>
 <!-- //here ends scrolling icon -->
 <script src="/js/minicart.min.js"></script>
-<script src="/js/minicart.js"></script>
 <script>
     // Mini Cart
     paypal.minicart.render({
@@ -210,7 +209,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     if(result.msg){
                         location.href="/single";
                     }else{
-                        alert(bookno/*"没有这本书的详细介绍"*/);
+                        alert("没有这本书的详细介绍");
                     }
                 })
             }

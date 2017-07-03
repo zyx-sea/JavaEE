@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title></title>
+    <title>添加用户</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="../css/bootstrap-responsive.css" />
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
     <script type="text/javascript" src="../js/jquery2.js"></script>
-    <script type="text/javascript" src="../Js/jquery2.sorted.js"></script>
+    <script type="text/javascript" src="../js/jquery2.sorted.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
     <script type="text/javascript" src="../js/ckform.js"></script>
     <script type="text/javascript" src="../js/common.js"></script>
@@ -36,34 +36,30 @@
 </head>
 <body>
 <br>
- <font color="#777777"><strong>请填写教师资料：</strong></font>
-<form action="#" method="post" class="definewidth m20" enctype="multipart/form-data">
+ <font color="#777777"><strong>请填写用户资料：</strong></font>
+<form action="/insertuser" method="post" class="definewidth m20" <%--enctype="multipart/form-data"--%>>
 <table class="table table-bordered table-hover m10" style="margin-left:10px;margin-top:3px;">
-    
-   
    <br>
     <tr>
-        <td class="tableleft">登录名</td>
-        <td><input type="text" name="username"/></td>
+        <td class="tableleft">用户名</td>
+        <td><input type="text" name="usersUsername"/></td>
         <td class="tableleft">密码</td>
-        <td><input type="text" name="password"/></td>
+        <td><input type="password" name="usersPassword"/></td>
     </tr>
 	<tr>
         <td class="tableleft" >真实姓名</td>
-        <td><input type="text" name="TrealName" placeholder="选填"/></td>
-        <td class="tableleft">学校</td>
-        <td><input type="text" name="Tschool" placeholder="选填"/></td>
+        <td><input type="text" name="usersName" placeholder="选填"/></td>
+        <td class="tableleft">性别</td>
+        <td><input type="text" name="usersSex" placeholder="选填"/></td>
     </tr><tr>
-        <td class="tableleft">生日</td>
-        <td><input type="text" name="Tbirthday" placeholder="选填"/></td>
-        <td class="tableleft">邮箱</td>
-        <td><input type="text" name="Temail" placeholder="选填"/></td>
+        <td class="tableleft">手机号</td>
+        <td><input type="text" name="usersPhone"/></td>
+        <td class="tableleft">地址</td>
+        <td><input type="text" name="usersAddr"/></td>
     </tr>
-	
-	
 </table>
-<br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-primary">提交</button>
+    <br>
+<button type="submit" class="btn btn-primary">提交</button>
 </form>
  <img src="" id="img0" > 
  
@@ -75,15 +71,16 @@ $("#GoodsPicture").change(function(){
 		$("#img0").attr("src", objUrl) ;
 	}
 }) ;
+</script>
+<script>
+$(function (){
+    $('#backid').click(function(){
+        window.location.href="goodsQuery.html";
+    });
+});
 
+</script>
 </body>
 </html>
-<script>
-   $(function (){       
-		$('#backid').click(function(){
-				window.location.href="goodsQuery.html";
-		 });
-    });
-		
-</script>
+
 

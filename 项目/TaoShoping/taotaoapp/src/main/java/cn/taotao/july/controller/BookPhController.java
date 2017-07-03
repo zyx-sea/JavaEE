@@ -49,10 +49,9 @@ public class BookPhController {
     @RequestMapping("/findBookByno")
     @ResponseBody
     public  Map<String,Object> findBookByno(@ModelAttribute("book") Book book, HttpSession session){
-        Book book1=bookPhService.findBookByno(book.getBookNo());
+        Book book1=bookPhService.findBookByno(book);
         Map<String,Object> map = new HashMap<>();
         if(book1!=null){
-           /* System.out.println(book1.getBookAuthor());*/
             session.setAttribute("book",book1);
             map.put("msg",true);
         }else{
@@ -74,4 +73,51 @@ public class BookPhController {
     public  List<Book> findAllbook(){
         return bookPhService.findAllBook();
     }
+    /*按照书号查找书籍*/
+    @RequestMapping("/findbook")
+    public  String findbook(Book book,HttpSession session){
+        if (bookPhService.findBookByno(book)!=null){
+            session.setAttribute("books",bookPhService.findBookByno(book));
+            return "bookCheck";
+        }else{
+            return "bookQuery";
+        }
+    }
+    /*显示找到的结果*/
+    @RequestMapping("/showbook")
+    @ResponseBody
+    public Map<String,Object> showbook(HttpSession session){
+        Map<String,Object> bookinfo = new HashMap<>();
+        bookinfo.put("book",session.getAttribute("books"));
+        return  bookinfo;
+    }
+    /*插入书籍*/
+    @RequestMapping("/insertbook")
+    public String  insert(Book book){
+        System.out.println(book.getBookNo());
+        int bookTotal=0;
+        if (book.getBookNo()!=null){
+            bookTotal=bookPhService.insertBook(book);
+        }else{
+            bookTotal=bookPhService.updateBook(book);
+        }
+        if (bookTotal>0){
+            return "bookQuery";
+        }else {
+            return  "bookAdd";
+        }
+    }
+    /*删除书籍*/
+    @RequestMapping("/deletebook")
+    @ResponseBody
+    public Map<String,Boolean>  delete(@ModelAttribute("book")Book book){
+        Map<String,Boolean> map=new HashMap<String, Boolean>();
+        if(bookPhService.deleteBook(book)>0){
+            map.put("msg",true);
+        }else {
+            map.put("msg",false);
+        }
+        return map;
+    }
+
 }

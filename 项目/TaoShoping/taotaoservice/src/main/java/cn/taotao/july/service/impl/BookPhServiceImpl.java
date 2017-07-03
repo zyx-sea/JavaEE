@@ -29,16 +29,29 @@ public class BookPhServiceImpl implements BookPhService {
         );
         return bookList;
     }
-
-    /*按照书号查找书籍*/
+    /*根据书号查找书籍*/
     @Override
-    public Book findBookByno(String bookno) {
-        return  bookMapper.selectById(bookno);
+    public Book findBookByno(Book book) {
+        return bookMapper.selectById(book.getBookNo());
     }
-
     /*查找所有书籍*/
     @Override
     public List<Book> findAllBook() {
         return bookMapper.selectList(new EntityWrapper<Book>());
+    }
+    /*插入新书*/
+    @Override
+    public Integer insertBook(Book book) {
+        return bookMapper.insert(book);
+    }
+    /*更新书籍信息*/
+    @Override
+    public int updateBook(Book book) {
+        return bookMapper.updateById(book);
+    }
+    /*删除书籍*/
+    @Override
+    public int deleteBook(Book book) {
+        return bookMapper.deleteById(book.getBookNo());
     }
 }

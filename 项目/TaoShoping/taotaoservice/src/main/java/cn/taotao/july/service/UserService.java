@@ -13,7 +13,7 @@ import java.util.List;
  */
 public interface UserService {
     /*按名字查询*/
-    public Users findUserByName(String userName);
+    public Users findUserByName(Users users);
     /*得到所有用户信息*/
     public List<Users> getAllUsers();
     /*插入新用户*/
@@ -21,7 +21,7 @@ public interface UserService {
     /*更新用户信息*/
     public int update(Users users);
     /*删除用户信息*/
-    public int delete(int id);
+    public int delete(Users users);
 
     public Page selectUser(Integer pageNumber, Integer pageSize);
 

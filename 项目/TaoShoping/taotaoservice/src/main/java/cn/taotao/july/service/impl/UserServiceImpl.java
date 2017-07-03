@@ -23,10 +23,8 @@ public class UserServiceImpl extends ServiceImpl<UsersMapper,Users> implements U
     @Autowired
     private UsersMapper usersMapper;
     @Override
-    public Users findUserByName(String username) {
-        /*Users users=new Users();
-        users.setUsersUsername(username);*/
-        return  usersMapper.selectById(username);
+    public Users findUserByName(Users users) {
+        return  usersMapper.selectById(users.getUsersUsername());
     }
 
     @Override
@@ -45,8 +43,8 @@ public class UserServiceImpl extends ServiceImpl<UsersMapper,Users> implements U
     }
 
     @Override
-    public int delete(int id) {
-        return usersMapper.deleteById(id);
+    public int delete(Users users) {
+        return usersMapper.deleteById(users.getUsersName());
     }
     public Page selectUser(Integer pageNumber,Integer pageSize){
         return selectPage(new Page<>(pageNumber,pageSize),null);
