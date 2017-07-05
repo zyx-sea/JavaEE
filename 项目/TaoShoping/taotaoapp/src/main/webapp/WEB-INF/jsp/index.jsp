@@ -191,7 +191,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     var vum = new Vue({
         el:'#app',
         data:{
-            //msg:123,
             productList:{}
         },
         methods:{
