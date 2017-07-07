@@ -56,7 +56,7 @@ public class MpGenerator {
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("4321");
-        dsc.setUrl("jdbc:mysql://localhost:3306/taotao2?useUnicode=true&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://localhost:3306/taotao?useUnicode=true&characterEncoding=utf8");
         mpg.setDataSource(dsc);
 
         // 策略配置
@@ -88,7 +88,7 @@ public class MpGenerator {
 
         // 包配置
         PackageConfig pc = new PackageConfig();
-        pc.setParent("edu.cn");
+        pc.setParent("cn.taotao.july");
         pc.setEntity("pojo");
         pc.setXml("mapper");
         //pc.setModuleName("test");
